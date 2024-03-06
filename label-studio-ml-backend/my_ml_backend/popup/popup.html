@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model Configuration</title>
+    <style>
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .optional {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="configForm">
+    <div class="form-group">
+        <label for="learningRate">Learning Rate</label>
+        <select id="learningRate">
+            <option value="0.01">0.01</option>
+            <option value="0.001">0.001</option>
+            <option value="0.0001">0.0001</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="optimizer">Optimizer</label>
+        <select id="optimizer">
+            <option value="SGD">SGD</option>
+            <option value="Adam">Adam</option>
+            <option value="AdamW">AdamW</option>
+            <option value="RMSprop">RMSprop</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="gradClip">Gradient Clipping</label>
+        <select id="gradClip">
+            <option value="0.1">0.1</option>
+            <option value="0.5">0.5</option>
+            <option value="1.0">1.0</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="weightDecay">Weight Decay</label>
+        <select id="weightDecay">
+            <option value="0">0</option>
+            <option value="0.0001">0.0001</option>
+            <option value="0.001">0.001</option>
+        </select>
+    </div>
+    <div class="form-group optional" id="momentumGroup">
+        <label for="momentum">Momentum</label>
+        <select id="momentum">
+            <option value="0.9">0.9</option>
+            <option value="0.95">0.95</option>
+            <option value="0.99">0.99</option>
+        </select>
+    </div>
+    <!--
+    <div class="form-group optional" id="beta1Group">
+        <label for="beta1">Beta 1</label>
+        <select id="beta1">
+            <option value="0.9">0.9</option>
+            <option value="0.95">0.95</option>
+        </select>
+    </div>
+    <div class="form-group optional" id="beta2Group">
+        <label for="beta2">Beta 2</label>
+        <select id="beta2">
+            <option value="0.999">0.999</option>
+            <option value="0.995">0.995</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="eps">Epsilon</label>
+        <select id="eps">
+            <option value="1e-8">1e-8</option>
+            <option value="1e-7">1e-7</option>
+            <option value="1e-6">1e-6</option>
+        </select>
+    </div>
+    <div class="form-group optional" id="rhoGroup">
+        <label for="rho">Rho</label>
+        <select id="rho">
+            <option value="0.9">0.9</option>
+            <option value="0.95">0.95</option>
+        </select>
+    </div>
+    -->
+    
+    <button id="updateButton">Update Model</button>
+</div>
+
+<div id="statusMessage"></div>
+
+<script src="popup.js"></script>
+</body>
+</html>
+
+

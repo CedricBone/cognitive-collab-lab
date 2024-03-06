@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Label Studio Extension",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}

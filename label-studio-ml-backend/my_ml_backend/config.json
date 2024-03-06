@@ -1,0 +1,16 @@
+{
+    "learning_rate": "0.01",
+    "embedding_dim": "64",
+    "hidden_dim": "128",
+    "batch_size": "32",
+    "epochs": "4",
+    "optimizer": "SGD",
+    "dropout_rate": "0.5",
+    "grad_clip": "0.1",
+    "weight_decay": "0.0001",
+    "momentum": "0.95",
+    "beta1": "0.9",
+    "beta2": "0.999",
+    "eps": "1e-8",
+    "rho": "0.9"
+}

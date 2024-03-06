@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px; /* Increased padding */
+    background-color: #f0f2f5;
+    max-width: 2000px; /* Increased width for a larger form */
+    min-width: 350px;
+    min-height: 500px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px; /* Added for more space below the title */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased for more space between form elements */
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px; /* Increased for better readability */
+    margin-bottom: 8px; /* Increased space between label and input */
+    font-weight: 600;
+    color: #444;
+}
+
+select {
+    padding: 12px; /* Increased for larger touch targets */
+    border-radius: 5px; /* Slightly rounded for a modern look */
+    border: 1px solid #ccc;
+    background-color: white;
+    font-size: 14px; /* Increased for better readability */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px; /* Increased padding for a larger button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increased font size */
+    margin-top: 20px; /* Increased margin for more space above the button */
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#statusMessage {
+    margin-top: 20px;
+    padding: 15px; /* Increased padding */
+    color: white;
+    background-color: #28a745;
+    border-radius: 5px;
+    text-align: center;
+    display: none; /* Keep hidden initially */
+}
+
+
