@@ -11,6 +11,7 @@ from dataset import CoNLL2003Dataset
 from _model import SimpleNERModel
 from utils import load_model_config
 import shutil
+import time
    
 def collate_fn(batch):
     input_ids, labels = zip(*batch)  # Unzip the batch to separate sequences and labels
@@ -21,7 +22,6 @@ def collate_fn(batch):
 
     return input_ids_padded, labels_padded
 
-# Training Function
 def train(model, data_loader, optimizer, device, num_labels):
     model.train()
     total_loss = 0
@@ -80,7 +80,7 @@ def train_init_model(embedding_dim, hidden_dim, optimizer, batch_size, num_epoch
 
     # Clear "current_model" directory
     os
-    save_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "current_model")
+    save_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "init_model")
     print(f"Save path: {save_path}")
     torch.save(model.state_dict(), os.path.join(save_path, "model.pth"))
     print("Model saved")
@@ -90,7 +90,6 @@ def train_init_model(embedding_dim, hidden_dim, optimizer, batch_size, num_epoch
     print("ID to Tag saved")
 
     return model, tag_to_id, id_to_tag
-
 
 def clear_directory(directory):
     for filename in os.listdir(directory):
@@ -102,7 +101,6 @@ def clear_directory(directory):
                 shutil.rmtree(file_path)
         except Exception as e:
             print('Failed to delete %s. Reason: %s' % (file_path, e))
-
 
 def move_contents(src_directory, dest_directory):
     for filename in os.listdir(src_directory):
@@ -138,13 +136,20 @@ def reset_model():
     move_contents(init_model_path, current_model_path)
     print("Model directory updated from init_model to current_model.")
 
+# Move model to a new folder in the models directory (E:\cognitive_collab_iML2\models)
+def move_model(trial_type, participant_id):
+    current_model_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "current_model")
+    models_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
+    new_model_path = os.path.join(models_path, f"{trial_type}_{participant_id}_model_{time.strftime('%Y%m%d-%H%M%S')}")
+    if os.path.exists(new_model_path):
+        shutil.rmtree(new_model_path)
+    shutil.copytree(current_model_path, new_model_path)
+    print(f"Model moved to {new_model_path}")
+
 if __name__ == "__main__":
+
     retrain = input("Do you want to retrain the model? (y/n): ")
     if retrain.lower().strip() == "y":
         retrain_model()
     else:
         reset_model()
-
-
-
-

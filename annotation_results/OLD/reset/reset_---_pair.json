@@ -1,0 +1,1909 @@
+{
+  "total_annotations": 0,
+  "total_predictions": 20,
+  "total": 20,
+  "tasks": [
+    {
+      "id": 5312,
+      "predictions": [
+        {
+          "id": 1733,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 11,
+                "labels": [
+                  "Person"
+                ],
+                "start": 6,
+                "text": "Henry"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 15,
+                "labels": [
+                  "Person"
+                ],
+                "start": 12,
+                "text": "Hub"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 143,
+                "labels": [
+                  "Location"
+                ],
+                "start": 135,
+                "text": "National"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 151,
+                "labels": [
+                  "Location"
+                ],
+                "start": 144,
+                "text": "Weather"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 159,
+                "labels": [
+                  "Location"
+                ],
+                "start": 152,
+                "text": "Service"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:30.857707Z",
+          "updated_at": "2024-03-20T17:34:30.857707Z",
+          "task": 5312,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 1,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 11, labels: [Person], start: 6, text: Henry}}, {from_name: label, to_name: text, type: labels, value: {end: 15, labels: [Person], start: 12, text: Hub}}, {from_name: label, to_name: text, type: labels, value: {end: 143, labels: [Location], start: 135, text: National}}, {from_name: label, to_name: text, type: labels, value: {end: 151, labels",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "NYMEX Henry Hub natgas futures settled significantly lower Friday , pressured early by profit taking and driven even lower late by the National Weather Service 's bearish six to 10 day forecast , sources said ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:30.847734Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5313,
+      "predictions": [
+        {
+          "id": 1734,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 8,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "Physical"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 23,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 19,
+                "text": "Waha"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:30.899596Z",
+          "updated_at": "2024-03-20T17:34:30.899596Z",
+          "task": 5313,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 2,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 8, labels: [Organization], start: 0, text: Physical}}, {from_name: label, to_name: text, type: labels, value: {end: 23, labels: [Organization], start: 19, text: Waha}}]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "Physical prices at Waha for the weekend lost more than 15 cents to the low-to-mid $ 3.50s as milder weather moved into the Southwest ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:30.890619Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5314,
+      "predictions": [
+        {
+          "id": 1735,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Location"
+                ],
+                "start": 0,
+                "text": "Grain"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 133,
+                "labels": [
+                  "Location"
+                ],
+                "start": 126,
+                "text": "Chicago"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 139,
+                "labels": [
+                  "Location"
+                ],
+                "start": 134,
+                "text": "Board"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 142,
+                "labels": [
+                  "Location"
+                ],
+                "start": 140,
+                "text": "of"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 148,
+                "labels": [
+                  "Location"
+                ],
+                "start": 143,
+                "text": "Trade"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:30.937495Z",
+          "updated_at": "2024-03-20T17:34:30.937495Z",
+          "task": 5314,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 3,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 5, labels: [Location], start: 0, text: Grain}}, {from_name: label, to_name: text, type: labels, value: {end: 133, labels: [Location], start: 126, text: Chicago}}, {from_name: label, to_name: text, type: labels, value: {end: 139, labels: [Location], start: 134, text: Board}}, {from_name: label, to_name: text, type: labels, value: {end: 142, l",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "Grain and soybean receipts and shipments , in bushels , at delivery locations for the previous trading day , according to the Chicago Board of Trade -"
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:30.927521Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5315,
+      "predictions": [
+        {
+          "id": 1736,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 17,
+                "labels": [
+                  "Person"
+                ],
+                "start": 10,
+                "text": "Clinton"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 109,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 104,
+                "text": "White"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 115,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 110,
+                "text": "House"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:30.981377Z",
+          "updated_at": "2024-03-20T17:34:30.981377Z",
+          "task": 5315,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 4,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 17, labels: [Person], start: 10, text: Clinton}}, {from_name: label, to_name: text, type: labels, value: {end: 109, labels: [Organization], start: 104, text: White}}, {from_name: label, to_name: text, type: labels, value: {end: 115, labels: [Organization], start: 110, text: House}}]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "President Clinton aims to hold more news conferences in his second term and will have one Dec. 13 , the White House said Friday ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:30.970406Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5316,
+      "predictions": [
+        {
+          "id": 1737,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.015201Z",
+          "updated_at": "2024-03-20T17:34:31.015201Z",
+          "task": 5316,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 5,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "The president had only two formal , full-blown news conferences last year , one in January and one after he won re-election in November , although he had various other limited sessions with the press ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:31.006232Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5317,
+      "predictions": [
+        {
+          "id": 1738,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Location"
+                ],
+                "start": 0,
+                "text": "White"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 11,
+                "labels": [
+                  "Location"
+                ],
+                "start": 6,
+                "text": "House"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 26,
+                "labels": [
+                  "Person"
+                ],
+                "start": 22,
+                "text": "Mike"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 34,
+                "labels": [
+                  "Person"
+                ],
+                "start": 27,
+                "text": "McCurry"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 47,
+                "labels": [
+                  "Person"
+                ],
+                "start": 40,
+                "text": "Clinton"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.115579Z",
+          "updated_at": "2024-03-20T17:34:31.115579Z",
+          "task": 5317,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 6,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 5, labels: [Location], start: 0, text: White}}, {from_name: label, to_name: text, type: labels, value: {end: 11, labels: [Location], start: 6, text: House}}, {from_name: label, to_name: text, type: labels, value: {end: 26, labels: [Person], start: 22, text: Mike}}, {from_name: label, to_name: text, type: labels, value: {end: 34, labels: [P",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "White House spokesman Mike McCurry said Clinton \" plans to have regular news conferences \" during his second term ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:31.104175Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5318,
+      "predictions": [
+        {
+          "id": 1739,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 81,
+                "labels": [
+                  "Person"
+                ],
+                "start": 73,
+                "text": "periodic"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.174370Z",
+          "updated_at": "2024-03-20T17:34:31.174370Z",
+          "task": 5318,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 7,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 81, labels: [Person], start: 73, text: periodic}}]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "But when asked how frequent these would be , he was evasive , saying , \" periodic , occasional . \""
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:31.149009Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5319,
+      "predictions": [
+        {
+          "id": 1740,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.212268Z",
+          "updated_at": "2024-03-20T17:34:31.212268Z",
+          "task": 5319,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 8,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "Action Performance to acquire firms ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:31.202294Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5320,
+      "predictions": [
+        {
+          "id": 1741,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 22,
+                "labels": [
+                  "Person"
+                ],
+                "start": 19,
+                "text": "Cos"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 26,
+                "labels": [
+                  "Location"
+                ],
+                "start": 23,
+                "text": "Inc"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 74,
+                "labels": [
+                  "Location"
+                ],
+                "start": 64,
+                "text": "Motorsport"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 89,
+                "labels": [
+                  "Location"
+                ],
+                "start": 86,
+                "text": "Ltd"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 102,
+                "labels": [
+                  "Location"
+                ],
+                "start": 94,
+                "text": "Creative"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 112,
+                "labels": [
+                  "Location"
+                ],
+                "start": 103,
+                "text": "Marketing"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 114,
+                "labels": [
+                  "Location"
+                ],
+                "start": 113,
+                "text": "&"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 125,
+                "labels": [
+                  "Location"
+                ],
+                "start": 115,
+                "text": "Promotions"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 129,
+                "labels": [
+                  "Location"
+                ],
+                "start": 126,
+                "text": "Inc"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.255153Z",
+          "updated_at": "2024-03-20T17:34:31.255153Z",
+          "task": 5320,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 9,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 22, labels: [Person], start: 19, text: Cos}}, {from_name: label, to_name: text, type: labels, value: {end: 26, labels: [Location], start: 23, text: Inc}}, {from_name: label, to_name: text, type: labels, value: {end: 74, labels: [Location], start: 64, text: Motorsport}}, {from_name: label, to_name: text, type: labels, value: {end: 89, labels",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "Action Performance Cos Inc said Friday it has agreed to acquire Motorsport Traditions Ltd and Creative Marketing & Promotions Inc for about $ 13 million in cash and stock ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:31.245180Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5321,
+      "predictions": [
+        {
+          "id": 1742,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 151,
+                "labels": [
+                  "Location"
+                ],
+                "start": 140,
+                "text": "motorsports"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.292054Z",
+          "updated_at": "2024-03-20T17:34:31.292054Z",
+          "task": 5321,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 10,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 151, labels: [Location], start: 140, text: motorsports}}]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "The two firms to be acquired have about $ 25 million in annual revenues from the design , manufacture and sale and distribution of licensed motorsports products ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:31.282082Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5322,
+      "predictions": [
+        {
+          "id": 1743,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.333943Z",
+          "updated_at": "2024-03-20T17:34:31.333943Z",
+          "task": 5322,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 11,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "The deal is expected to close by the end of the year subject to due diligence and other customary closing conditions ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:31.322972Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5323,
+      "predictions": [
+        {
+          "id": 1744,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.370844Z",
+          "updated_at": "2024-03-20T17:34:31.370844Z",
+          "task": 5323,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 12,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "Half of dog bites provoked , says American vet ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:31.361868Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5324,
+      "predictions": [
+        {
+          "id": 1745,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 57,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 51,
+                "text": "United"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 64,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 58,
+                "text": "States"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.414726Z",
+          "updated_at": "2024-03-20T17:34:31.414726Z",
+          "task": 5324,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 13,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 57, labels: [Organization], start: 51, text: United}}, {from_name: label, to_name: text, type: labels, value: {end: 64, labels: [Organization], start: 58, text: States}}]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "As many as 1 million dog bites are recorded in the United States every year and half of them are provoked by humans , a veterinarian told fellow animal doctors on Friday ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.686688Z",
+      "updated_at": "2024-03-20T17:34:31.405750Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5325,
+      "predictions": [
+        {
+          "id": 1746,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 10,
+                "labels": [
+                  "Location"
+                ],
+                "start": 4,
+                "text": "Humane"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 18,
+                "labels": [
+                  "Location"
+                ],
+                "start": 11,
+                "text": "Society"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 32,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 26,
+                "text": "United"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 39,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 33,
+                "text": "States"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.451628Z",
+          "updated_at": "2024-03-20T17:34:31.451628Z",
+          "task": 5325,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 14,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 10, labels: [Location], start: 4, text: Humane}}, {from_name: label, to_name: text, type: labels, value: {end: 18, labels: [Location], start: 11, text: Society}}, {from_name: label, to_name: text, type: labels, value: {end: 32, labels: [Organization], start: 26, text: United}}, {from_name: label, to_name: text, type: labels, value: {end: 39, ",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "The Humane Society of the United States estimates that between 500,000 and one million bites are delivered by dogs each year , more than half of which are suffered by children ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.687685Z",
+      "updated_at": "2024-03-20T17:34:31.442652Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5326,
+      "predictions": [
+        {
+          "id": 1747,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 83,
+                "labels": [
+                  "Person"
+                ],
+                "start": 76,
+                "text": "Michael"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 92,
+                "labels": [
+                  "Person"
+                ],
+                "start": 84,
+                "text": "Cornwell"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 107,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 100,
+                "text": "Glencoe"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 114,
+                "labels": [
+                  "Location"
+                ],
+                "start": 108,
+                "text": "Animal"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 123,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 115,
+                "text": "Hospital"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 135,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 127,
+                "text": "Columbus"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 142,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 138,
+                "text": "Ohio"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 203,
+                "labels": [
+                  "Location"
+                ],
+                "start": 196,
+                "text": "Medical"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 215,
+                "labels": [
+                  "Location"
+                ],
+                "start": 204,
+                "text": "Association"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.488529Z",
+          "updated_at": "2024-03-20T17:34:31.488529Z",
+          "task": 5326,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 15,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 83, labels: [Person], start: 76, text: Michael}}, {from_name: label, to_name: text, type: labels, value: {end: 92, labels: [Person], start: 84, text: Cornwell}}, {from_name: label, to_name: text, type: labels, value: {end: 107, labels: [Organization], start: 100, text: Glencoe}}, {from_name: label, to_name: text, type: labels, value: {end: 11",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "\" Most bites can be prevented by teaching children how to respect a dog , \" Michael Cornwell of the Glencoe Animal Hospital in Columbus , Ohio , told the annual meeting of the American Veterinary Medical Association ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.687685Z",
+      "updated_at": "2024-03-20T17:34:31.478556Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5327,
+      "predictions": [
+        {
+          "id": 1748,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 34,
+                "labels": [
+                  "Location"
+                ],
+                "start": 30,
+                "text": "USDA"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.542385Z",
+          "updated_at": "2024-03-20T17:34:31.542385Z",
+          "task": 5327,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 16,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 34, labels: [Location], start: 30, text: USDA}}]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "Nebraska fed cattle roundup - USDA ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.687685Z",
+      "updated_at": "2024-03-20T17:34:31.517452Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5328,
+      "predictions": [
+        {
+          "id": 1749,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 9,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Slaughter"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.588264Z",
+          "updated_at": "2024-03-20T17:34:31.588264Z",
+          "task": 5328,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 17,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 9, labels: [Person], start: 0, text: Slaughter}}]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "Slaughter steers and heifers were not established Thursday ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.687685Z",
+      "updated_at": "2024-03-20T17:34:31.577292Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5329,
+      "predictions": [
+        {
+          "id": 1750,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 15,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Representatives"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 24,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 23,
+                "text": "U"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 29,
+                "labels": [
+                  "Location"
+                ],
+                "start": 28,
+                "text": "N"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 57,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 52,
+                "text": "Ivory"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 63,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 58,
+                "text": "Coast"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 76,
+                "labels": [
+                  "Person"
+                ],
+                "start": 66,
+                "text": "Mauritania"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 86,
+                "labels": [
+                  "Person"
+                ],
+                "start": 81,
+                "text": "Niger"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 125,
+                "labels": [
+                  "Location"
+                ],
+                "start": 117,
+                "text": "Security"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 133,
+                "labels": [
+                  "Location"
+                ],
+                "start": 126,
+                "text": "Council"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 149,
+                "labels": [
+                  "Person"
+                ],
+                "start": 144,
+                "text": "Paolo"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 155,
+                "labels": [
+                  "Person"
+                ],
+                "start": 150,
+                "text": "Fulci"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 164,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 159,
+                "text": "Italy"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.625165Z",
+          "updated_at": "2024-03-20T17:34:31.625165Z",
+          "task": 5329,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 18,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 15, labels: [Person], start: 0, text: Representatives}}, {from_name: label, to_name: text, type: labels, value: {end: 24, labels: [Organization], start: 23, text: U}}, {from_name: label, to_name: text, type: labels, value: {end: 29, labels: [Location], start: 28, text: N}}, {from_name: label, to_name: text, type: labels, value: {end: 57, lab",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "Representatives of the U.N. missions of Ghana , the Ivory Coast , Mauritania and Niger have scheduled a meeting with Security Council president Paolo Fulci of Italy to hand in the nominations in writing , the envoys said ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.687685Z",
+      "updated_at": "2024-03-20T17:34:31.615191Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5330,
+      "predictions": [
+        {
+          "id": 1751,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 23,
+                "labels": [
+                  "Location"
+                ],
+                "start": 16,
+                "text": "African"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.670045Z",
+          "updated_at": "2024-03-20T17:34:31.670045Z",
+          "task": 5330,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 19,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 23, labels: [Location], start: 16, text: African}}]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "The move by the African states means that the council could begin voting on candidates next week , a procedure that could either result in a decision or turn into a bitter fight with vetoes against each nominee ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.687685Z",
+      "updated_at": "2024-03-20T17:34:31.657107Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    },
+    {
+      "id": 5331,
+      "predictions": [
+        {
+          "id": 1752,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0days, 22\u00a0hours",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 168,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 163,
+                "text": "Spain"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T17:34:31.720909Z",
+          "updated_at": "2024-03-20T17:34:31.720909Z",
+          "task": 5331,
+          "project": 4
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 20,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 168, labels: [Organization], start: 163, text: Spain}}]",
+      "predictions_score": null,
+      "file_upload": "2ea9f405-pair.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 6
+        }
+      ],
+      "data": {
+        "text": "Spanish police said on Friday they had arrested five people and seized more than 90 petrol bombs during disturbances after a protest in the Basque country against Spain 's constitution ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T17:18:24.687685Z",
+      "updated_at": "2024-03-20T17:34:31.710935Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 4,
+      "comment_authors": []
+    }
+  ]
+}

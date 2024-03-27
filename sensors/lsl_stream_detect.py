@@ -13,6 +13,8 @@ relevent_streams = [
     "pupil_capture_fixations",
     "pupil_capture_pupillometry_only",
     "ECL",
+    "GSR2",
+    "GSR1",
 ]
 
 
@@ -84,4 +86,4 @@ def print_available_streams(verbose=False):
 
 
 if __name__ == "__main__":
-    print_available_streams()
+    print_available_streams(True)

@@ -1,0 +1,2173 @@
+{
+  "total_annotations": 0,
+  "total_predictions": 0,
+  "total": 20,
+  "tasks": [
+    {
+      "id": 4972,
+      "predictions": [
+        {
+          "id": 1353,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 23,
+                "labels": [
+                  "Person"
+                ],
+                "start": 17,
+                "text": "Rodney"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 232,
+                "labels": [
+                  "Location"
+                ],
+                "start": 219,
+                "text": "International"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.534284Z",
+          "updated_at": "2024-03-20T00:59:08.534284Z",
+          "task": 4972,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 1,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "World number two Rodney Eyles moved within sight of his fifth title of the year on Friday when he hurried in only 40 minutes to the final of the richest squash tournament outside the World Open , the $ 105,000 Mahindra International ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.525308Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4973,
+      "predictions": [
+        {
+          "id": 1354,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 37,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 29,
+                "text": "Mahindra"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 51,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 38,
+                "text": "International"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.570188Z",
+          "updated_at": "2024-03-20T00:59:08.570188Z",
+          "task": 4973,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 2,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Results of semifinals in the Mahindra International squash tournament on Friday :"
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.561212Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4974,
+      "predictions": [
+        {
+          "id": 1355,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 22,
+                "labels": [
+                  "Person"
+                ],
+                "start": 16,
+                "text": "Vaclav"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 28,
+                "labels": [
+                  "Person"
+                ],
+                "start": 23,
+                "text": "Havel"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 85,
+                "labels": [
+                  "Person"
+                ],
+                "start": 77,
+                "text": "Albright"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 103,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 98,
+                "text": "Czech"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 130,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 124,
+                "text": "United"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 137,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 131,
+                "text": "States"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 170,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 165,
+                "text": "State"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.608086Z",
+          "updated_at": "2024-03-20T00:59:08.608086Z",
+          "task": 4974,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 3,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Czech President Vaclav Havel on Friday welcomed the appointment of Madeleine Albright , who is of Czech extraction , as the United States ' first woman Secretary of State ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.599111Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4975,
+      "predictions": [
+        {
+          "id": 1356,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 15,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 9,
+                "text": "United"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 22,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 16,
+                "text": "States"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.643991Z",
+          "updated_at": "2024-03-20T00:59:08.643991Z",
+          "task": 4975,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 4,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "with the United States and with the first woman ever to hold the position of Secretary of State ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.635015Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4976,
+      "predictions": [
+        {
+          "id": 1357,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Havel"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.682887Z",
+          "updated_at": "2024-03-20T00:59:08.682887Z",
+          "task": 4976,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 5,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Havel had a small malignant tumour removed from his lung on Monday and is recovering in hospital ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.672939Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4977,
+      "predictions": [
+        {
+          "id": 1358,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 8,
+                "labels": [
+                  "Location"
+                ],
+                "start": 0,
+                "text": "Albright"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 21,
+                "labels": [
+                  "Person"
+                ],
+                "start": 16,
+                "text": "Marie"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 31,
+                "labels": [
+                  "Person"
+                ],
+                "start": 22,
+                "text": "Korbelova"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 103,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 97,
+                "text": "United"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 110,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 104,
+                "text": "States"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.718913Z",
+          "updated_at": "2024-03-20T00:59:08.718913Z",
+          "task": 4977,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 6,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Albright , born Marie Korbelova to a Czechoslovak diplomat in 1937 , fled with her family to the United States after the Communists came to power in a coup in 1948 ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.709820Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4978,
+      "predictions": [
+        {
+          "id": 1359,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 25,
+                "labels": [
+                  "Location"
+                ],
+                "start": 17,
+                "text": "Albright"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 56,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 50,
+                "text": "Europe"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 127,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 121,
+                "text": "United"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 135,
+                "labels": [
+                  "Location"
+                ],
+                "start": 128,
+                "text": "Nations"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.756600Z",
+          "updated_at": "2024-03-20T00:59:08.756600Z",
+          "task": 4978,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 7,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "As an academic , Albright studied and lectured on Europe 's 20th century problems before becoming U.S. ambassador to the United Nations ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.745307Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4979,
+      "predictions": [
+        {
+          "id": 1360,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 90,
+                "labels": [
+                  "Location"
+                ],
+                "start": 86,
+                "text": "NATO"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 126,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 118,
+                "text": "Albright"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 203,
+                "labels": [
+                  "Location"
+                ],
+                "start": 197,
+                "text": "Soveit"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.798834Z",
+          "updated_at": "2024-03-20T00:59:08.798834Z",
+          "task": 4979,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 8,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Czech diplomats , seeking to have their country included in the expected expansion of NATO , praised the selection of Albright , known to be a strong supporter of alliance 's integration of former Soveit-bloc countries ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.787124Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4980,
+      "predictions": [
+        {
+          "id": 1361,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 49,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 44,
+                "text": "Czech"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 55,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 50,
+                "text": "Civic"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 72,
+                "labels": [
+                  "Location"
+                ],
+                "start": 67,
+                "text": "Party"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 78,
+                "labels": [
+                  "Location"
+                ],
+                "start": 75,
+                "text": "ODS"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 168,
+                "labels": [
+                  "Person"
+                ],
+                "start": 165,
+                "text": "ODS"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 188,
+                "labels": [
+                  "Person"
+                ],
+                "start": 183,
+                "text": "Josef"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 198,
+                "labels": [
+                  "Person"
+                ],
+                "start": 189,
+                "text": "Zieleniec"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.840059Z",
+          "updated_at": "2024-03-20T00:59:08.840059Z",
+          "task": 4980,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 9,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Saturday 's national congress of the ruling Czech Civic Democratic Party ( ODS ) will discuss making the party more efficient and transparent , Foreign Minister and ODS vice-chairman Josef Zieleniec , said on Friday ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.829601Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4981,
+      "predictions": [
+        {
+          "id": 1362,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 2,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "He"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 120,
+                "labels": [
+                  "Location"
+                ],
+                "start": 117,
+                "text": "ODS"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 161,
+                "labels": [
+                  "Person"
+                ],
+                "start": 155,
+                "text": "Vaclav"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 167,
+                "labels": [
+                  "Person"
+                ],
+                "start": 162,
+                "text": "Klaus"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 263,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 258,
+                "text": "Czech"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 280,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 276,
+                "text": "Brno"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.880121Z",
+          "updated_at": "2024-03-20T00:59:08.880121Z",
+          "task": 4981,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 10,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "He said after June general elections in which the ruling three-party coalition lost its parliamentary majority , the ODS executive , led by Prime Minister Vaclav Klaus , had developed proposals on these subjects to present at the congress on Saturday in the Czech second city Brno ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.870548Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4982,
+      "predictions": [
+        {
+          "id": 1363,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 7,
+                "labels": [
+                  "Location"
+                ],
+                "start": 4,
+                "text": "ODS"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 32,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 27,
+                "text": "Klaus"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 107,
+                "labels": [
+                  "Person"
+                ],
+                "start": 99,
+                "text": "Margaret"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 116,
+                "labels": [
+                  "Person"
+                ],
+                "start": 108,
+                "text": "Thatcher"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 147,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 142,
+                "text": "Czech"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.920951Z",
+          "updated_at": "2024-03-20T00:59:08.920951Z",
+          "task": 4982,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 11,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "The ODS , a party in which Klaus often tries to emulate the style of former British Prime Minister Margaret Thatcher , has been in control of Czech politics since winning general elections in 1992 ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.910100Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4983,
+      "predictions": [
+        {
+          "id": 1364,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 9,
+                "labels": [
+                  "Location"
+                ],
+                "start": 0,
+                "text": "Zieleniec"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:08.962023Z",
+          "updated_at": "2024-03-20T00:59:08.962023Z",
+          "task": 4983,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 12,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Zieleniec in the summer led calls for the party and its leadership to listen to more diverse opinions , a thinly-veiled criticism of Klaus who has spearheaded the country 's post-Communist economic reforms ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:08.950042Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4984,
+      "predictions": [
+        {
+          "id": 1365,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 49,
+                "labels": [
+                  "Person"
+                ],
+                "start": 44,
+                "text": "Klaus"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 140,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 135,
+                "text": "Czech"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:09.027646Z",
+          "updated_at": "2024-03-20T00:59:09.027646Z",
+          "task": 4984,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 13,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "The party , led by the vigorously-confident Klaus , took 32 of 81 seats after late November runoff elections to the new upper house of Czech parliament ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:09.015169Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4985,
+      "predictions": [
+        {
+          "id": 1366,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Klaus"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:09.070373Z",
+          "updated_at": "2024-03-20T00:59:09.070373Z",
+          "task": 4985,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 14,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Klaus and his coalition lost its majority in parliament in June lower house elections after the left-wing opposition consolidated , putting the centre-left Social Democrats in a strong second-place position ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:09.059475Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4986,
+      "predictions": [
+        {
+          "id": 1367,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 24,
+                "labels": [
+                  "Person"
+                ],
+                "start": 17,
+                "text": "Dariusz"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 31,
+                "labels": [
+                  "Person"
+                ],
+                "start": 25,
+                "text": "Rosati"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 140,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 134,
+                "text": "Poland"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:09.110519Z",
+          "updated_at": "2024-03-20T00:59:09.110519Z",
+          "task": 4986,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 15,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Foreign Minister Dariusz Rosati , unveiling first findings of a special government commission , said that in 1970s the then communist Poland received 460,000 Swiss francs from the accounts ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:09.100419Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4987,
+      "predictions": [
+        {
+          "id": 1368,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 11,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "Switzerland"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 45,
+                "labels": [
+                  "Person"
+                ],
+                "start": 38,
+                "text": "Alfonse"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 6,
+                "labels": [
+                  "Person"
+                ],
+                "start": 1,
+                "text": "Amato"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 87,
+                "labels": [
+                  "Person"
+                ],
+                "start": 86,
+                "text": "S"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 309,
+                "labels": [
+                  "Location"
+                ],
+                "start": 303,
+                "text": "Senate"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 110,
+                "labels": [
+                  "Location"
+                ],
+                "start": 101,
+                "text": "Committee"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 148,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 142,
+                "text": "Poland"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 187,
+                "labels": [
+                  "Location"
+                ],
+                "start": 181,
+                "text": "Polish"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 196,
+                "labels": [
+                  "Location"
+                ],
+                "start": 188,
+                "text": "citizens"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 300,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 294,
+                "text": "Poland"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:09.149979Z",
+          "updated_at": "2024-03-20T00:59:09.149979Z",
+          "task": 4987,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 16,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Switzerland stands accused by Senator Alfonse D'Amato , chairman of the powerful U.S. Senate Banking Committee , of agreeing to give money to Poland from unclaimed bank accounts of Polish citizens , as part of an accord on compensating Swiss nationals whose assets had been seized in communist Poland ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:09.139289Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4988,
+      "predictions": [
+        {
+          "id": 1369,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 6,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Rosati"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 93,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 87,
+                "text": "Warsaw"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 109,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 98,
+                "text": "Switzerland"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:09.191986Z",
+          "updated_at": "2024-03-20T00:59:09.191986Z",
+          "task": 4988,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 17,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Rosati did not say whether the payment in 1970s was part of the 1949 agreement between Warsaw and Switzerland on compensation to Swiss citizens whose assets were seized by the Soviet-imposed communists authorities after World War Two ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:09.180162Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4989,
+      "predictions": [
+        {
+          "id": 1370,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 45,
+                "labels": [
+                  "Location"
+                ],
+                "start": 42,
+                "text": "Ltd"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 51,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 48,
+                "text": "SAB"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 98,
+                "labels": [
+                  "Location"
+                ],
+                "start": 94,
+                "text": "Lech"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 108,
+                "labels": [
+                  "Location"
+                ],
+                "start": 103,
+                "text": "Tychy"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 189,
+                "labels": [
+                  "Location"
+                ],
+                "start": 180,
+                "text": "Australia"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 217,
+                "labels": [
+                  "Location"
+                ],
+                "start": 209,
+                "text": "Brewpole"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 10,
+                "labels": [
+                  "Person"
+                ],
+                "start": 8,
+                "text": "BV"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 238,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 232,
+                "text": "Poland"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 270,
+                "labels": [
+                  "Location"
+                ],
+                "start": 261,
+                "text": "Elbrewery"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 278,
+                "labels": [
+                  "Location"
+                ],
+                "start": 271,
+                "text": "Company"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 282,
+                "labels": [
+                  "Location"
+                ],
+                "start": 279,
+                "text": "Ltd"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 3,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 1,
+                "text": "EB"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:09.233310Z",
+          "updated_at": "2024-03-20T00:59:09.233310Z",
+          "task": 4989,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 18,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "Earlier this year South African Breweries Ltd ( SAB ) bought strategic stakes in the unlisted Lech and Tychy brewers , which together hold more than 20 percent of the market , and Australia 's Brewpole BV has a controlling stake in Poland 's larges t brewery , Elbrewery Company Ltd. ( EB ) ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:09.222455Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4990,
+      "predictions": [
+        {
+          "id": 1371,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 12,
+                "labels": [
+                  "Location"
+                ],
+                "start": 4,
+                "text": "Canadian"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 24,
+                "labels": [
+                  "Location"
+                ],
+                "start": 19,
+                "text": "Board"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 98,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 94,
+                "text": "West"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 104,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 99,
+                "text": "Coast"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:09.273956Z",
+          "updated_at": "2024-03-20T00:59:09.273956Z",
+          "task": 4990,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 19,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "The Canadian Wheat Board reported six ships loading , 10 waiting and four due at the Canadian West Coast , as of Friday ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:09.263024Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 4991,
+      "predictions": [
+        {
+          "id": 1372,
+          "model_version": "INITIAL",
+          "created_ago": "0\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 36,
+                "labels": [
+                  "Location"
+                ],
+                "start": 32,
+                "text": "West"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 42,
+                "labels": [
+                  "Location"
+                ],
+                "start": 37,
+                "text": "Coast"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-03-20T00:59:09.313835Z",
+          "updated_at": "2024-03-20T00:59:09.313835Z",
+          "task": 4991,
+          "project": 3
+        }
+      ],
+      "annotations": [],
+      "drafts": [],
+      "annotators": [],
+      "inner_id": 20,
+      "cancelled_annotations": 0,
+      "total_annotations": 0,
+      "total_predictions": 1,
+      "completed_at": null,
+      "annotations_results": "",
+      "predictions_results": "",
+      "predictions_score": null,
+      "file_upload": "210b9b1c-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "",
+      "predictions_model_versions": "",
+      "avg_lead_time": null,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 3
+        }
+      ],
+      "data": {
+        "text": "The longest wait to load on the West Coast was 13 days ."
+      },
+      "meta": {},
+      "created_at": "2024-03-20T00:56:54.454135Z",
+      "updated_at": "2024-03-20T00:59:09.302490Z",
+      "is_labeled": false,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    }
+  ]
+}

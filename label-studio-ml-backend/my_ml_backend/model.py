@@ -10,8 +10,8 @@ from transformers import BertTokenizerFast
 from _model import SimpleNERModel
 from dataset import CoNLL2003Dataset
 
-import train_model2
-import predict_model2
+import train_model
+import predict_model
 from utils import (
     print_project_ids,
     load_model_config,
@@ -65,11 +65,11 @@ class NewModel(LabelStudioMLBase):
         self.tag_to_id = torch.load(os.path.join(os.path.dirname(os.path.abspath(__file__)), "current_model", "tag_to_id.pth"))
         self.id_to_tag = torch.load(os.path.join(os.path.dirname(os.path.abspath(__file__)), "current_model", "id_to_tag.pth"))
         # Initialize tokenizer and calculate vocab size and number of labels
-        self.tokenizer = train_model2.BertTokenizerFast.from_pretrained('bert-base-cased')
+        self.tokenizer = train_model.BertTokenizerFast.from_pretrained('bert-base-cased')
         self.num_labels = len(self.tag_to_id)
         self.vocab_size = self.tokenizer.vocab_size
         # Initialize the model
-        model = train_model2.SimpleNERModel(self.vocab_size, self.embedding_dim, self.hidden_dim, self.num_labels).to(self.device)
+        model = train_model.SimpleNERModel(self.vocab_size, self.embedding_dim, self.hidden_dim, self.num_labels).to(self.device)
         model_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "current_model", "model.pth")
         model.load_state_dict(torch.load(model_path))
         self.model = model
@@ -84,15 +84,13 @@ class NewModel(LabelStudioMLBase):
 
 
             # Get predictions for each sentence
-            sentence_predictions = predict_model2.predict_entities_adjusted(sentences, self.model, self.id_to_tag)
-            print(f"Predictions pre removal: {sentence_predictions}")
+            sentence_predictions = predict_model.predict_entities_adjusted(sentences, self.model, self.id_to_tag)
             # replace 'B-Miscellaneous' or 'I-Miscellaneous' with 'O'
             for i in range(len(sentence_predictions)):
                 for j in range(len(sentence_predictions[i])):
                     if sentence_predictions[i][j][1] == 'B-Miscellaneous' or sentence_predictions[i][j][1] == 'I-Miscellaneous':
                         sentence_predictions[i][j] = (sentence_predictions[i][j][0], 'O')
-            print(f"Predictions post removal: {sentence_predictions}")
-            
+            print(f"Predictions: {sentence_predictions}")
             # Convert predictions to Label Studio format
             ls_results = convert_predictions_to_label_studio_format(sentence_predictions[0], original_text)
             #print(f"Predictions: {ls_results}")
@@ -126,7 +124,7 @@ class NewModel(LabelStudioMLBase):
         self.beta2 = float(config["beta2"])
         self.eps = float(config["eps"])
         self.rho = float(config["rho"])
-        self.model = train_model2.fine_tune_model2(self.model, annotation, self.tag_to_id, optimizer_type=self.optimizer, learning_rate=self.learning_rate, grad_clip=self.grad_clip, weight_decay=self.weight_decay, momentum=self.momentum, beta1=self.beta1, beta2=self.beta2, eps=self.eps, rho=self.rho)
+        self.model = train_model.fine_tune_model2(self.model, annotation, self.tag_to_id, optimizer_type=self.optimizer, learning_rate=self.learning_rate, grad_clip=self.grad_clip, weight_decay=self.weight_decay, momentum=self.momentum, beta1=self.beta1, beta2=self.beta2, eps=self.eps, rho=self.rho)
 
     def fit(self, event, data, **kwargs):
         print(f"Event: {event}")
