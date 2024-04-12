@@ -1,0 +1,5187 @@
+{
+  "total_annotations": 20,
+  "total_predictions": 38,
+  "total": 20,
+  "tasks": [
+    {
+      "id": 6612,
+      "predictions": [
+        {
+          "id": 2918,
+          "model_version": "INITIAL",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 23,
+                "labels": [
+                  "Person"
+                ],
+                "start": 17,
+                "text": "Rodney"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 232,
+                "labels": [
+                  "Location"
+                ],
+                "start": 219,
+                "text": "International"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:05.612231Z",
+          "updated_at": "2024-04-09T19:57:05.612231Z",
+          "task": 6612,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 504,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "19\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 17,
+                "end": 23,
+                "text": "Rodney",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "t8o_AMbxY3",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 219,
+                "end": 232,
+                "text": "International",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "Efa_BGO3bt",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 24,
+                "end": 29,
+                "text": "Eyles",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "_Mj8rshMmU",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 183,
+                "end": 193,
+                "text": "World Open",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "fs43OaCRwA",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 210,
+                "end": 234,
+                "text": "Mahindra International .",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "3FLIbXxfYw",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:14:07.566870Z",
+          "updated_at": "2024-04-09T20:14:07.566870Z",
+          "draft_created_at": "2024-04-09T20:13:21.234761Z",
+          "lead_time": 104.849,
+          "import_id": null,
+          "last_action": null,
+          "task": 6612,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2918,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 1,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 1,
+      "completed_at": "2024-04-09T20:14:07.566870Z",
+      "annotations_results": "[{value: {start: 17, end: 23, text: Rodney, labels: [Person]}, id: t8o_AMbxY3, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 219, end: 232, text: International, labels: [Location]}, id: Efa_BGO3bt, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 24, end: 29, text: Eyles, labels: [Location]}, id: _Mj8rshMmU, from_name: label, to_name",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 23, labels: [Person], start: 17, text: Rodney}}, {from_name: label, to_name: text, type: labels, value: {end: 232, labels: [Location], start: 219, text: International}}]",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "504",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": 104.849,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "World number two Rodney Eyles moved within sight of his fifth title of the year on Friday when he hurried in only 40 minutes to the final of the richest squash tournament outside the World Open , the $ 105,000 Mahindra International ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:14:07.633879Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6613,
+      "predictions": [
+        {
+          "id": 2919,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 29,
+                "end": 37,
+                "text": "Mahindra",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 38,
+                "end": 51,
+                "text": "International",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:05.654203Z",
+          "updated_at": "2024-04-09T20:14:11.117755Z",
+          "task": 6613,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 505,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "18\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 29,
+                "end": 37,
+                "text": "Mahindra",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "_n6nHGUxit",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 38,
+                "end": 51,
+                "text": "International",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "DdbCO9SIcn",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:14:33.945833Z",
+          "updated_at": "2024-04-09T20:14:33.945833Z",
+          "draft_created_at": null,
+          "lead_time": 24.273,
+          "import_id": null,
+          "last_action": null,
+          "task": 6613,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2919,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 2,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 1,
+      "completed_at": "2024-04-09T20:14:33.945833Z",
+      "annotations_results": "[{value: {start: 29, end: 37, text: Mahindra, labels: [Organization]}, id: _n6nHGUxit, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 38, end: 51, text: International, labels: [Organization]}, id: DdbCO9SIcn, from_name: label, to_name: text, type: labels, origin: prediction}]",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 29, end: 37, text: Mahindra, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 38, end: 51, text: International, labels: [Organization]}}]",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "505",
+      "predictions_model_versions": "CLaSP_v1",
+      "avg_lead_time": 24.273,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Results of semifinals in the Mahindra International squash tournament on Friday :"
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:14:34.010660Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6614,
+      "predictions": [
+        {
+          "id": 2920,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 16,
+                "end": 22,
+                "text": "Vaclav",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 23,
+                "end": 28,
+                "text": "Havel",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 77,
+                "end": 85,
+                "text": "Albright",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 98,
+                "end": 103,
+                "text": "Czech",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 124,
+                "end": 130,
+                "text": "United",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 131,
+                "end": 137,
+                "text": "States",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 165,
+                "end": 170,
+                "text": "State",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:05.732051Z",
+          "updated_at": "2024-04-09T20:14:37.067899Z",
+          "task": 6614,
+          "project": 3
+        },
+        {
+          "id": 2938,
+          "model_version": "INITIAL",
+          "created_ago": "18\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 22,
+                "labels": [
+                  "Person"
+                ],
+                "start": 16,
+                "text": "Vaclav"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 28,
+                "labels": [
+                  "Person"
+                ],
+                "start": 23,
+                "text": "Havel"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 85,
+                "labels": [
+                  "Person"
+                ],
+                "start": 77,
+                "text": "Albright"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 103,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 98,
+                "text": "Czech"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 130,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 124,
+                "text": "United"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 137,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 131,
+                "text": "States"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 170,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 165,
+                "text": "State"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:14:36.313384Z",
+          "updated_at": "2024-04-09T20:14:36.313384Z",
+          "task": 6614,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 506,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "17\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 16,
+                "end": 22,
+                "text": "Vaclav",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "xiXVmlj69N",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 23,
+                "end": 28,
+                "text": "Havel",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "n7Px-KDzvn",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 77,
+                "end": 85,
+                "text": "Albright",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "acKSJUucCQ",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 98,
+                "end": 103,
+                "text": "Czech",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "uyf7wAwOaT",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 124,
+                "end": 130,
+                "text": "United",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "mYfWrj-STH",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 131,
+                "end": 137,
+                "text": "States",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "5t_w0Q0hfs",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 67,
+                "end": 76,
+                "text": "Madeleine",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "zTJym9bEO0",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 124,
+                "end": 137,
+                "text": "United States",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "V7Eipl_42A",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:15:56.569785Z",
+          "updated_at": "2024-04-09T20:15:56.569785Z",
+          "draft_created_at": "2024-04-09T20:14:55.473955Z",
+          "lead_time": 80.132,
+          "import_id": null,
+          "last_action": null,
+          "task": 6614,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2938,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 3,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:15:56.569785Z",
+      "annotations_results": "[{value: {start: 16, end: 22, text: Vaclav, labels: [Person]}, id: xiXVmlj69N, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 23, end: 28, text: Havel, labels: [Person]}, id: n7Px-KDzvn, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 77, end: 85, text: Albright, labels: [Person]}, id: acKSJUucCQ, from_name: label, to_name: text, ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 16, end: 22, text: Vaclav, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 23, end: 28, text: Havel, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 77, end: 85, text: Albright, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 98, end: ",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "506",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 80.132,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Czech President Vaclav Havel on Friday welcomed the appointment of Madeleine Albright , who is of Czech extraction , as the United States ' first woman Secretary of State ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:15:56.643159Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6615,
+      "predictions": [
+        {
+          "id": 2921,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 9,
+                "end": 15,
+                "text": "United",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 16,
+                "end": 22,
+                "text": "States",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:05.772130Z",
+          "updated_at": "2024-04-09T20:15:59.873730Z",
+          "task": 6615,
+          "project": 3
+        },
+        {
+          "id": 2939,
+          "model_version": "INITIAL",
+          "created_ago": "17\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 15,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 9,
+                "text": "United"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 22,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 16,
+                "text": "States"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:15:59.069427Z",
+          "updated_at": "2024-04-09T20:15:59.069427Z",
+          "task": 6615,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 507,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "16\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 9,
+                "end": 22,
+                "text": "United States",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "NZrckofLIB",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:16:32.732664Z",
+          "updated_at": "2024-04-09T20:16:32.732664Z",
+          "draft_created_at": "2024-04-09T20:16:23.895163Z",
+          "lead_time": 33.51,
+          "import_id": null,
+          "last_action": null,
+          "task": 6615,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2939,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 4,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:16:32.732664Z",
+      "annotations_results": "[{value: {start: 9, end: 22, text: United States, labels: [Location]}, id: NZrckofLIB, from_name: label, to_name: text, type: labels, origin: manual}] [{value: {start: 9, end: 22, text: United States, labels: [Location]}, id: NZrckofLIB, from_name: label, to_name: text, type: labels, origin: manual}]",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 9, end: 15, text: United, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 16, end: 22, text: States, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 15, labels: [Organization], start: 9, text: United}}, {from_name: label, to_name: text, type: labels, value: {end",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "507",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 33.51,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "with the United States and with the first woman ever to hold the position of Secretary of State ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:16:32.827673Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6616,
+      "predictions": [
+        {
+          "id": 2922,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Havel",
+                "labels": [
+                  "Person"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:05.842238Z",
+          "updated_at": "2024-04-09T20:16:35.806560Z",
+          "task": 6616,
+          "project": 3
+        },
+        {
+          "id": 2940,
+          "model_version": "INITIAL",
+          "created_ago": "16\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Havel"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:16:35.162683Z",
+          "updated_at": "2024-04-09T20:16:35.162683Z",
+          "task": 6616,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 508,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "16\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Havel",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "2oQZSnDhKE",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 88,
+                "end": 96,
+                "text": "hospital",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "JHjIcOn5fk",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:17:06.790775Z",
+          "updated_at": "2024-04-09T20:17:06.790775Z",
+          "draft_created_at": "2024-04-09T20:16:58.830906Z",
+          "lead_time": 31.484,
+          "import_id": null,
+          "last_action": null,
+          "task": 6616,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2940,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 5,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:17:06.790775Z",
+      "annotations_results": "[{value: {start: 0, end: 5, text: Havel, labels: [Person]}, id: 2oQZSnDhKE, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 88, end: 96, text: hospital, labels: [Location]}, id: JHjIcOn5fk, from_name: label, to_name: text, type: labels, origin: manual}] [{value: {start: 0, end: 5, text: Havel, labels: [Person]}, id: 2oQZSnDhKE, from_name: label, to_name: text, type:",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: Havel, labels: [Person]}}] [{from_name: label, to_name: text, type: labels, value: {end: 5, labels: [Person], start: 0, text: Havel}}]",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "508",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 31.484,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Havel had a small malignant tumour removed from his lung on Monday and is recovering in hospital ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:17:06.869564Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6617,
+      "predictions": [
+        {
+          "id": 2923,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 8,
+                "text": "Albright",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 16,
+                "end": 21,
+                "text": "Marie",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 22,
+                "end": 31,
+                "text": "Korbelova",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 97,
+                "end": 103,
+                "text": "United",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 104,
+                "end": 110,
+                "text": "States",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:05.908831Z",
+          "updated_at": "2024-04-09T20:17:09.963677Z",
+          "task": 6617,
+          "project": 3
+        },
+        {
+          "id": 2941,
+          "model_version": "INITIAL",
+          "created_ago": "16\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 8,
+                "labels": [
+                  "Location"
+                ],
+                "start": 0,
+                "text": "Albright"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 21,
+                "labels": [
+                  "Person"
+                ],
+                "start": 16,
+                "text": "Marie"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 31,
+                "labels": [
+                  "Person"
+                ],
+                "start": 22,
+                "text": "Korbelova"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 103,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 97,
+                "text": "United"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 110,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 104,
+                "text": "States"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:17:09.579703Z",
+          "updated_at": "2024-04-09T20:17:09.579703Z",
+          "task": 6617,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 509,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "14\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 16,
+                "end": 21,
+                "text": "Marie",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "PKPa5ybZ8R",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 22,
+                "end": 31,
+                "text": "Korbelova",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "AZ6xgsrJz-",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 8,
+                "text": "Albright",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "tojxmCUJ9N",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 37,
+                "end": 58,
+                "text": "Czechoslovak diplomat",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "5WCS32Eqhh",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 97,
+                "end": 110,
+                "text": "United States",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "LJbiR02fzM",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 121,
+                "end": 131,
+                "text": "Communists",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "nUod8-Os4y",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:18:19.476760Z",
+          "updated_at": "2024-04-09T20:18:19.476760Z",
+          "draft_created_at": "2024-04-09T20:17:25.760755Z",
+          "lead_time": 69.764,
+          "import_id": null,
+          "last_action": null,
+          "task": 6617,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2941,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 6,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:18:19.476760Z",
+      "annotations_results": "[{value: {start: 16, end: 21, text: Marie, labels: [Person]}, id: PKPa5ybZ8R, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 22, end: 31, text: Korbelova, labels: [Person]}, id: AZ6xgsrJz-, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 0, end: 8, text: Albright, labels: [Person]}, id: tojxmCUJ9N, from_name: label, to_name: text, ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 8, text: Albright, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 16, end: 21, text: Marie, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 22, end: 31, text: Korbelova, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 97, end",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "509",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 69.764,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Albright , born Marie Korbelova to a Czechoslovak diplomat in 1937 , fled with her family to the United States after the Communists came to power in a coup in 1948 ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:18:19.570510Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6618,
+      "predictions": [
+        {
+          "id": 2924,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 17,
+                "end": 25,
+                "text": "Albright",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 50,
+                "end": 56,
+                "text": "Europe",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 121,
+                "end": 127,
+                "text": "United",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 128,
+                "end": 135,
+                "text": "Nations",
+                "labels": [
+                  "Location"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:05.948238Z",
+          "updated_at": "2024-04-09T20:18:22.561839Z",
+          "task": 6618,
+          "project": 3
+        },
+        {
+          "id": 2942,
+          "model_version": "INITIAL",
+          "created_ago": "14\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 25,
+                "labels": [
+                  "Location"
+                ],
+                "start": 17,
+                "text": "Albright"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 56,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 50,
+                "text": "Europe"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 127,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 121,
+                "text": "United"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 135,
+                "labels": [
+                  "Location"
+                ],
+                "start": 128,
+                "text": "Nations"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:18:21.906888Z",
+          "updated_at": "2024-04-09T20:18:21.906888Z",
+          "task": 6618,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 510,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "13\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 17,
+                "end": 25,
+                "text": "Albright",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "B3cYjbNqP4",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 121,
+                "end": 135,
+                "text": "United Nations",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "vuTSs4kYSY",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 50,
+                "end": 56,
+                "text": "Europe",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "D9qGhpZ-xF",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:19:20.396739Z",
+          "updated_at": "2024-04-09T20:19:20.396739Z",
+          "draft_created_at": "2024-04-09T20:18:35.723550Z",
+          "lead_time": 58.338,
+          "import_id": null,
+          "last_action": null,
+          "task": 6618,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2942,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 7,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:19:20.396739Z",
+      "annotations_results": "[{value: {start: 17, end: 25, text: Albright, labels: [Person]}, id: B3cYjbNqP4, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 121, end: 135, text: United Nations, labels: [Organization]}, id: vuTSs4kYSY, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 50, end: 56, text: Europe, labels: [Location]}, id: D9qGhpZ-xF, from_name: label, to_name",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 17, end: 25, text: Albright, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 50, end: 56, text: Europe, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 121, end: 127, text: United, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {st",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "510",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 58.338,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "As an academic , Albright studied and lectured on Europe 's 20th century problems before becoming U.S. ambassador to the United Nations ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:19:20.520864Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6619,
+      "predictions": [
+        {
+          "id": 2925,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 86,
+                "end": 90,
+                "text": "NATO",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 118,
+                "end": 126,
+                "text": "Albright",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 197,
+                "end": 203,
+                "text": "Soveit",
+                "labels": [
+                  "Location"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:05.991230Z",
+          "updated_at": "2024-04-09T20:19:23.559891Z",
+          "task": 6619,
+          "project": 3
+        },
+        {
+          "id": 2943,
+          "model_version": "INITIAL",
+          "created_ago": "13\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 90,
+                "labels": [
+                  "Location"
+                ],
+                "start": 86,
+                "text": "NATO"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 126,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 118,
+                "text": "Albright"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 203,
+                "labels": [
+                  "Location"
+                ],
+                "start": 197,
+                "text": "Soveit"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:19:22.745701Z",
+          "updated_at": "2024-04-09T20:19:22.745701Z",
+          "task": 6619,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 511,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "12\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 15,
+                "text": "Czech diplomats",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "-KFvN_0kPC",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 86,
+                "end": 90,
+                "text": "NATO",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "pyKbNbUhyI",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 118,
+                "end": 126,
+                "text": "Albright",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "qQC330wU_R",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 197,
+                "end": 218,
+                "text": "Soveit-bloc countries",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "SSdP9pOMZf",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:20:22.284542Z",
+          "updated_at": "2024-04-09T20:20:22.284542Z",
+          "draft_created_at": "2024-04-09T20:19:44.012707Z",
+          "lead_time": 59.424,
+          "import_id": null,
+          "last_action": null,
+          "task": 6619,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2943,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 8,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:20:22.284542Z",
+      "annotations_results": "[{value: {start: 0, end: 15, text: Czech diplomats, labels: [Person]}, id: -KFvN_0kPC, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 86, end: 90, text: NATO, labels: [Organization]}, id: pyKbNbUhyI, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 118, end: 126, text: Albright, labels: [Person]}, id: qQC330wU_R, from_name: label, to_name: t",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 86, end: 90, text: NATO, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 118, end: 126, text: Albright, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 197, end: 203, text: Soveit, labels: [Location]}}] [{from_name: label, to_name: text, type: labels, value: {end:",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "511",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 59.424,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Czech diplomats , seeking to have their country included in the expected expansion of NATO , praised the selection of Albright , known to be a strong supporter of alliance 's integration of former Soveit-bloc countries ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:20:22.383278Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6620,
+      "predictions": [
+        {
+          "id": 2926,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 44,
+                "end": 49,
+                "text": "Czech",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 50,
+                "end": 55,
+                "text": "Civic",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 67,
+                "end": 72,
+                "text": "Party",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 75,
+                "end": 78,
+                "text": "ODS",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 165,
+                "end": 168,
+                "text": "ODS",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 183,
+                "end": 188,
+                "text": "Josef",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 189,
+                "end": 198,
+                "text": "Zieleniec",
+                "labels": [
+                  "Person"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.060238Z",
+          "updated_at": "2024-04-09T20:20:25.533510Z",
+          "task": 6620,
+          "project": 3
+        },
+        {
+          "id": 2944,
+          "model_version": "INITIAL",
+          "created_ago": "12\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 49,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 44,
+                "text": "Czech"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 55,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 50,
+                "text": "Civic"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 72,
+                "labels": [
+                  "Location"
+                ],
+                "start": 67,
+                "text": "Party"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 78,
+                "labels": [
+                  "Location"
+                ],
+                "start": 75,
+                "text": "ODS"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 168,
+                "labels": [
+                  "Person"
+                ],
+                "start": 165,
+                "text": "ODS"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 188,
+                "labels": [
+                  "Person"
+                ],
+                "start": 183,
+                "text": "Josef"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 198,
+                "labels": [
+                  "Person"
+                ],
+                "start": 189,
+                "text": "Zieleniec"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:20:24.939370Z",
+          "updated_at": "2024-04-09T20:20:24.939370Z",
+          "task": 6620,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 512,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "11\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 183,
+                "end": 188,
+                "text": "Josef",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "Gl1anZYNhj",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 189,
+                "end": 198,
+                "text": "Zieleniec",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "_V64VUsFUV",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 44,
+                "end": 80,
+                "text": "Czech Civic Democratic Party ( ODS )",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "WnjrRzrUGQ",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 12,
+                "end": 29,
+                "text": "national congress",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "oZ88Uym6sn",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:21:33.644620Z",
+          "updated_at": "2024-04-09T20:21:33.644620Z",
+          "draft_created_at": "2024-04-09T20:20:47.352822Z",
+          "lead_time": 68.566,
+          "import_id": null,
+          "last_action": null,
+          "task": 6620,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2944,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 9,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:21:33.644620Z",
+      "annotations_results": "[{value: {start: 183, end: 188, text: Josef, labels: [Person]}, id: Gl1anZYNhj, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 189, end: 198, text: Zieleniec, labels: [Person]}, id: _V64VUsFUV, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 44, end: 80, text: Czech Civic Democratic Party ( ODS ), labels: [Organization]}, id: WnjrRzrUGQ, ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 44, end: 49, text: Czech, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 50, end: 55, text: Civic, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 67, end: 72, text: Party, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 7",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "512",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 68.566,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Saturday 's national congress of the ruling Czech Civic Democratic Party ( ODS ) will discuss making the party more efficient and transparent , Foreign Minister and ODS vice-chairman Josef Zieleniec , said on Friday ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:21:33.747345Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6621,
+      "predictions": [
+        {
+          "id": 2927,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 2,
+                "text": "He",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 117,
+                "end": 120,
+                "text": "ODS",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 155,
+                "end": 161,
+                "text": "Vaclav",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 162,
+                "end": 167,
+                "text": "Klaus",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 258,
+                "end": 263,
+                "text": "Czech",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 276,
+                "end": 280,
+                "text": "Brno",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.096974Z",
+          "updated_at": "2024-04-09T20:21:36.710150Z",
+          "task": 6621,
+          "project": 3
+        },
+        {
+          "id": 2945,
+          "model_version": "INITIAL",
+          "created_ago": "11\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 2,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "He"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 120,
+                "labels": [
+                  "Location"
+                ],
+                "start": 117,
+                "text": "ODS"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 161,
+                "labels": [
+                  "Person"
+                ],
+                "start": 155,
+                "text": "Vaclav"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 167,
+                "labels": [
+                  "Person"
+                ],
+                "start": 162,
+                "text": "Klaus"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 263,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 258,
+                "text": "Czech"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 280,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 276,
+                "text": "Brno"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:21:36.022829Z",
+          "updated_at": "2024-04-09T20:21:36.022829Z",
+          "task": 6621,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 513,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "10\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 155,
+                "end": 161,
+                "text": "Vaclav",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "tm4k7mqCKU",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 162,
+                "end": 167,
+                "text": "Klaus",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "7vsxPv2okX",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 117,
+                "end": 130,
+                "text": "ODS executive",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "_ZFbg_CvPu",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 258,
+                "end": 280,
+                "text": "Czech second city Brno",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "a2w3UL9j7R",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:22:46.140486Z",
+          "updated_at": "2024-04-09T20:22:46.140486Z",
+          "draft_created_at": "2024-04-09T20:21:46.248700Z",
+          "lead_time": 69.99,
+          "import_id": null,
+          "last_action": null,
+          "task": 6621,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2945,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 10,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:22:46.140486Z",
+      "annotations_results": "[{value: {start: 155, end: 161, text: Vaclav, labels: [Person]}, id: tm4k7mqCKU, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 162, end: 167, text: Klaus, labels: [Person]}, id: 7vsxPv2okX, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 117, end: 130, text: ODS executive, labels: [Organization]}, id: _ZFbg_CvPu, from_name: label, to",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 2, text: He, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 117, end: 120, text: ODS, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 155, end: 161, text: Vaclav, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 162, end",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "513",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 69.99,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "He said after June general elections in which the ruling three-party coalition lost its parliamentary majority , the ODS executive , led by Prime Minister Vaclav Klaus , had developed proposals on these subjects to present at the congress on Saturday in the Czech second city Brno ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:22:46.247880Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6622,
+      "predictions": [
+        {
+          "id": 2928,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 4,
+                "end": 7,
+                "text": "ODS",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 27,
+                "end": 32,
+                "text": "Klaus",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 99,
+                "end": 107,
+                "text": "Margaret",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 108,
+                "end": 116,
+                "text": "Thatcher",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 142,
+                "end": 147,
+                "text": "Czech",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.136217Z",
+          "updated_at": "2024-04-09T20:22:49.353619Z",
+          "task": 6622,
+          "project": 3
+        },
+        {
+          "id": 2946,
+          "model_version": "INITIAL",
+          "created_ago": "10\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 7,
+                "labels": [
+                  "Location"
+                ],
+                "start": 4,
+                "text": "ODS"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 32,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 27,
+                "text": "Klaus"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 107,
+                "labels": [
+                  "Person"
+                ],
+                "start": 99,
+                "text": "Margaret"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 116,
+                "labels": [
+                  "Person"
+                ],
+                "start": 108,
+                "text": "Thatcher"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 147,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 142,
+                "text": "Czech"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:22:48.511862Z",
+          "updated_at": "2024-04-09T20:22:48.511862Z",
+          "task": 6622,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 514,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "9\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 27,
+                "end": 32,
+                "text": "Klaus",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "MT8kTh7f6A",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 99,
+                "end": 107,
+                "text": "Margaret",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "BbL9sq_kEf",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 108,
+                "end": 116,
+                "text": "Thatcher",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "6aTpKA5Rnx",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 142,
+                "end": 147,
+                "text": "Czech",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "O2KPggw6ii",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 4,
+                "end": 7,
+                "text": "ODS",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "Gxk-e6xIE3",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:23:36.493676Z",
+          "updated_at": "2024-04-09T20:23:36.493676Z",
+          "draft_created_at": "2024-04-09T20:23:06.235965Z",
+          "lead_time": 47.853,
+          "import_id": null,
+          "last_action": null,
+          "task": 6622,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2946,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 11,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:23:36.493676Z",
+      "annotations_results": "[{value: {start: 27, end: 32, text: Klaus, labels: [Person]}, id: MT8kTh7f6A, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 99, end: 107, text: Margaret, labels: [Person]}, id: BbL9sq_kEf, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 108, end: 116, text: Thatcher, labels: [Person]}, id: 6aTpKA5Rnx, from_name: label, to_nam",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 4, end: 7, text: ODS, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 27, end: 32, text: Klaus, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 99, end: 107, text: Margaret, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 108, e",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "514",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 47.853,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "The ODS , a party in which Klaus often tries to emulate the style of former British Prime Minister Margaret Thatcher , has been in control of Czech politics since winning general elections in 1992 ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:23:36.610364Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6623,
+      "predictions": [
+        {
+          "id": 2929,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 9,
+                "text": "Zieleniec",
+                "labels": [
+                  "Location"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.172423Z",
+          "updated_at": "2024-04-09T20:23:39.616897Z",
+          "task": 6623,
+          "project": 3
+        },
+        {
+          "id": 2947,
+          "model_version": "INITIAL",
+          "created_ago": "9\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 9,
+                "labels": [
+                  "Location"
+                ],
+                "start": 0,
+                "text": "Zieleniec"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:23:39.371553Z",
+          "updated_at": "2024-04-09T20:23:39.371553Z",
+          "task": 6623,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 515,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "8\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 9,
+                "text": "Zieleniec",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "NhwaiWt0_q",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 133,
+                "end": 138,
+                "text": "Klaus",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "MWSzVByhP0",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 179,
+                "end": 188,
+                "text": "Communist",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "4CK52syXHB",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:24:38.664592Z",
+          "updated_at": "2024-04-09T20:24:38.664592Z",
+          "draft_created_at": "2024-04-09T20:24:04.796742Z",
+          "lead_time": 59.176,
+          "import_id": null,
+          "last_action": null,
+          "task": 6623,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2947,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 12,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:24:38.664592Z",
+      "annotations_results": "[{value: {start: 0, end: 9, text: Zieleniec, labels: [Person]}, id: NhwaiWt0_q, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 133, end: 138, text: Klaus, labels: [Person]}, id: MWSzVByhP0, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 179, end: 188, text: Communist, labels: [Organization]}, id: 4CK52syXHB, from_name: label, to_",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 9, text: Zieleniec, labels: [Location]}}] [{from_name: label, to_name: text, type: labels, value: {end: 9, labels: [Location], start: 0, text: Zieleniec}}]",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "515",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 59.176,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Zieleniec in the summer led calls for the party and its leadership to listen to more diverse opinions , a thinly-veiled criticism of Klaus who has spearheaded the country 's post-Communist economic reforms ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:24:38.781280Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6624,
+      "predictions": [
+        {
+          "id": 2930,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 44,
+                "end": 49,
+                "text": "Klaus",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 135,
+                "end": 140,
+                "text": "Czech",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.208202Z",
+          "updated_at": "2024-04-09T20:24:41.845810Z",
+          "task": 6624,
+          "project": 3
+        },
+        {
+          "id": 2948,
+          "model_version": "INITIAL",
+          "created_ago": "8\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 49,
+                "labels": [
+                  "Person"
+                ],
+                "start": 44,
+                "text": "Klaus"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 140,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 135,
+                "text": "Czech"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:24:43.152829Z",
+          "updated_at": "2024-04-09T20:24:43.152829Z",
+          "task": 6624,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 516,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "8\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 44,
+                "end": 49,
+                "text": "Klaus",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "cuXK387ffX",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 135,
+                "end": 140,
+                "text": "Czech",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "sfEU22UH0M",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:25:09.464605Z",
+          "updated_at": "2024-04-09T20:25:09.464605Z",
+          "draft_created_at": null,
+          "lead_time": 26.176,
+          "import_id": null,
+          "last_action": null,
+          "task": 6624,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2948,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 13,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:25:09.464605Z",
+      "annotations_results": "[{value: {start: 44, end: 49, text: Klaus, labels: [Person]}, id: cuXK387ffX, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 135, end: 140, text: Czech, labels: [Organization]}, id: sfEU22UH0M, from_name: label, to_name: text, type: labels, origin: prediction}] [{value: {start: 44, end: 49, text: Klaus, labels: [Person]}, id: cuXK387ffX, from_name: label, to_name: tex",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 44, end: 49, text: Klaus, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 135, end: 140, text: Czech, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 49, labels: [Person], start: 44, text: Klaus}}, {from_name: label, to_name: text, type: labels, value: {end: 140, la",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "516",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 26.176,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "The party , led by the vigorously-confident Klaus , took 32 of 81 seats after late November runoff elections to the new upper house of Czech parliament ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:25:09.587290Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6625,
+      "predictions": [
+        {
+          "id": 2931,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Klaus",
+                "labels": [
+                  "Person"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.246101Z",
+          "updated_at": "2024-04-09T20:25:13.319773Z",
+          "task": 6625,
+          "project": 3
+        },
+        {
+          "id": 2949,
+          "model_version": "INITIAL",
+          "created_ago": "8\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Klaus"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:25:12.103115Z",
+          "updated_at": "2024-04-09T20:25:12.103115Z",
+          "task": 6625,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 517,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "6\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Klaus",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "TVHSXjoZ-g",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 10,
+                "end": 23,
+                "text": "his coalition",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "q7FlbO16Gj",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 96,
+                "end": 105,
+                "text": "left-wing",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "OV6oQ0rj_0",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 144,
+                "end": 172,
+                "text": "centre-left Social Democrats",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "ReMjXOQXCX",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 45,
+                "end": 55,
+                "text": "parliament",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "s0W4l6P5GA",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:26:23.953501Z",
+          "updated_at": "2024-04-09T20:26:23.953501Z",
+          "draft_created_at": "2024-04-09T20:25:30.600705Z",
+          "lead_time": 71.727,
+          "import_id": null,
+          "last_action": null,
+          "task": 6625,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2949,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 14,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:26:23.953501Z",
+      "annotations_results": "[{value: {start: 0, end: 5, text: Klaus, labels: [Person]}, id: TVHSXjoZ-g, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 10, end: 23, text: his coalition, labels: [Organization]}, id: q7FlbO16Gj, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 96, end: 105, text: left-wing, labels: [Organization]}, id: OV6oQ0rj_0, from_name: label, to_n",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: Klaus, labels: [Person]}}] [{from_name: label, to_name: text, type: labels, value: {end: 5, labels: [Person], start: 0, text: Klaus}}]",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "517",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 71.727,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Klaus and his coalition lost its majority in parliament in June lower house elections after the left-wing opposition consolidated , putting the centre-left Social Democrats in a strong second-place position ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:26:24.076174Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6626,
+      "predictions": [
+        {
+          "id": 2932,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 17,
+                "end": 24,
+                "text": "Dariusz",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 25,
+                "end": 31,
+                "text": "Rosati",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 134,
+                "end": 140,
+                "text": "Poland",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.284999Z",
+          "updated_at": "2024-04-09T20:26:27.074599Z",
+          "task": 6626,
+          "project": 3
+        },
+        {
+          "id": 2950,
+          "model_version": "INITIAL",
+          "created_ago": "6\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 24,
+                "labels": [
+                  "Person"
+                ],
+                "start": 17,
+                "text": "Dariusz"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 31,
+                "labels": [
+                  "Person"
+                ],
+                "start": 25,
+                "text": "Rosati"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 140,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 134,
+                "text": "Poland"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:26:26.381020Z",
+          "updated_at": "2024-04-09T20:26:26.381020Z",
+          "task": 6626,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 518,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "6\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 17,
+                "end": 24,
+                "text": "Dariusz",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "rRSiAmZGfy",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 25,
+                "end": 31,
+                "text": "Rosati",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "y0lWpIys-E",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 134,
+                "end": 140,
+                "text": "Poland",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "oXgOJM7kZj",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 158,
+                "end": 163,
+                "text": "Swiss",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "XJXiQpR7YG",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:27:12.983576Z",
+          "updated_at": "2024-04-09T20:27:12.983576Z",
+          "draft_created_at": "2024-04-09T20:26:46.018658Z",
+          "lead_time": 46.463,
+          "import_id": null,
+          "last_action": null,
+          "task": 6626,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2950,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 15,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:27:12.983576Z",
+      "annotations_results": "[{value: {start: 17, end: 24, text: Dariusz, labels: [Person]}, id: rRSiAmZGfy, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 25, end: 31, text: Rosati, labels: [Person]}, id: y0lWpIys-E, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 134, end: 140, text: Poland, labels: [Location]}, id: oXgOJM7kZj, from_name: label, to_name: text",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 17, end: 24, text: Dariusz, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 25, end: 31, text: Rosati, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 134, end: 140, text: Poland, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 24, ",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "518",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 46.463,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Foreign Minister Dariusz Rosati , unveiling first findings of a special government commission , said that in 1970s the then communist Poland received 460,000 Swiss francs from the accounts ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:27:13.129186Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6627,
+      "predictions": [
+        {
+          "id": 2933,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 11,
+                "text": "Switzerland",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 38,
+                "end": 45,
+                "text": "Alfonse",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 1,
+                "end": 6,
+                "text": "Amato",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 86,
+                "end": 87,
+                "text": "S",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 303,
+                "end": 309,
+                "text": "Senate",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 101,
+                "end": 110,
+                "text": "Committee",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 142,
+                "end": 148,
+                "text": "Poland",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 181,
+                "end": 187,
+                "text": "Polish",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 188,
+                "end": 196,
+                "text": "citizens",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 294,
+                "end": 300,
+                "text": "Poland",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.322737Z",
+          "updated_at": "2024-04-09T20:27:16.070922Z",
+          "task": 6627,
+          "project": 3
+        },
+        {
+          "id": 2951,
+          "model_version": "INITIAL",
+          "created_ago": "6\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 11,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "Switzerland"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 45,
+                "labels": [
+                  "Person"
+                ],
+                "start": 38,
+                "text": "Alfonse"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 6,
+                "labels": [
+                  "Person"
+                ],
+                "start": 1,
+                "text": "Amato"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 87,
+                "labels": [
+                  "Person"
+                ],
+                "start": 86,
+                "text": "S"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 309,
+                "labels": [
+                  "Location"
+                ],
+                "start": 303,
+                "text": "Senate"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 110,
+                "labels": [
+                  "Location"
+                ],
+                "start": 101,
+                "text": "Committee"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 148,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 142,
+                "text": "Poland"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 187,
+                "labels": [
+                  "Location"
+                ],
+                "start": 181,
+                "text": "Polish"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 196,
+                "labels": [
+                  "Location"
+                ],
+                "start": 188,
+                "text": "citizens"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 300,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 294,
+                "text": "Poland"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:27:15.405555Z",
+          "updated_at": "2024-04-09T20:27:15.405555Z",
+          "task": 6627,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 519,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "4\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 303,
+                "end": 309,
+                "text": "",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "nsbRHEeXiR",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 142,
+                "end": 148,
+                "text": "Poland",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "5n6JmR4l4K",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 294,
+                "end": 300,
+                "text": "Poland",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "EIN6CR51dF",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 38,
+                "end": 53,
+                "text": "Alfonse D'Amato",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "T1gJw8x0z1",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 81,
+                "end": 110,
+                "text": "U.S. Senate Banking Committee",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "UbRbfuQq0k",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 181,
+                "end": 196,
+                "text": "Polish citizens",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "luorHHjE87",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 236,
+                "end": 251,
+                "text": "Swiss nationals",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "o70NliRdkF",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 11,
+                "text": "Switzerland",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "KIoi9YCIPw",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:28:57.036540Z",
+          "updated_at": "2024-04-09T20:28:57.036540Z",
+          "draft_created_at": "2024-04-09T20:27:28.017631Z",
+          "lead_time": 101.489,
+          "import_id": null,
+          "last_action": null,
+          "task": 6627,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2951,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 16,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:28:57.036540Z",
+      "annotations_results": "[{value: {start: 303, end: 309, text: , labels: [Location]}, id: nsbRHEeXiR, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 142, end: 148, text: Poland, labels: [Organization]}, id: 5n6JmR4l4K, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 294, end: 300, text: Poland, labels: [Organization]}, id: EIN6CR51dF, from_name: label, to_nam",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 11, text: Switzerland, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 38, end: 45, text: Alfonse, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 1, end: 6, text: Amato, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 86, ",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "519",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 101.489,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Switzerland stands accused by Senator Alfonse D'Amato , chairman of the powerful U.S. Senate Banking Committee , of agreeing to give money to Poland from unclaimed bank accounts of Polish citizens , as part of an accord on compensating Swiss nationals whose assets had been seized in communist Poland ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:28:57.171179Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6628,
+      "predictions": [
+        {
+          "id": 2934,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 6,
+                "text": "Rosati",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 87,
+                "end": 93,
+                "text": "Warsaw",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 98,
+                "end": 109,
+                "text": "Switzerland",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.389939Z",
+          "updated_at": "2024-04-09T20:29:00.061381Z",
+          "task": 6628,
+          "project": 3
+        },
+        {
+          "id": 2952,
+          "model_version": "INITIAL",
+          "created_ago": "4\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 6,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Rosati"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 93,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 87,
+                "text": "Warsaw"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 109,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 98,
+                "text": "Switzerland"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:28:59.567699Z",
+          "updated_at": "2024-04-09T20:28:59.567699Z",
+          "task": 6628,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 520,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "3\u00a0minutes",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 6,
+                "text": "Rosati",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "gHws-zieMT",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 87,
+                "end": 93,
+                "text": "Warsaw",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "40Zjh6qYuL",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 98,
+                "end": 109,
+                "text": "Switzerland",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "NoMUp6J8I5",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 129,
+                "end": 143,
+                "text": "Swiss citizens",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "ISpYty_w1I",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 176,
+                "end": 182,
+                "text": "Soviet",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "fIWSEdH1FN",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 176,
+                "end": 201,
+                "text": "Soviet-imposed communists",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "Z_PpjTiClY",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:29:43.986531Z",
+          "updated_at": "2024-04-09T20:29:43.986531Z",
+          "draft_created_at": "2024-04-09T20:29:15.287565Z",
+          "lead_time": 44.284,
+          "import_id": null,
+          "last_action": null,
+          "task": 6628,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2952,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 17,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:29:43.986531Z",
+      "annotations_results": "[{value: {start: 0, end: 6, text: Rosati, labels: [Person]}, id: gHws-zieMT, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 87, end: 93, text: Warsaw, labels: [Location]}, id: 40Zjh6qYuL, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 98, end: 109, text: Switzerland, labels: [Location]}, id: NoMUp6J8I5, from_name: label, to_n",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 6, text: Rosati, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 87, end: 93, text: Warsaw, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 98, end: 109, text: Switzerland, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "520",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 44.284,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Rosati did not say whether the payment in 1970s was part of the 1949 agreement between Warsaw and Switzerland on compensation to Swiss citizens whose assets were seized by the Soviet-imposed communists authorities after World War Two ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:29:44.132141Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6629,
+      "predictions": [
+        {
+          "id": 2935,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 42,
+                "end": 45,
+                "text": "Ltd",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 48,
+                "end": 51,
+                "text": "SAB",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 94,
+                "end": 98,
+                "text": "Lech",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 103,
+                "end": 108,
+                "text": "Tychy",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 180,
+                "end": 189,
+                "text": "Australia",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 209,
+                "end": 217,
+                "text": "Brewpole",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 8,
+                "end": 10,
+                "text": "BV",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 232,
+                "end": 238,
+                "text": "Poland",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 261,
+                "end": 270,
+                "text": "Elbrewery",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 271,
+                "end": 278,
+                "text": "Company",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 279,
+                "end": 282,
+                "text": "Ltd",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 1,
+                "end": 3,
+                "text": "EB",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.428771Z",
+          "updated_at": "2024-04-09T20:29:47.094086Z",
+          "task": 6629,
+          "project": 3
+        },
+        {
+          "id": 2953,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 45,
+                "labels": [
+                  "Location"
+                ],
+                "start": 42,
+                "text": "Ltd"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 51,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 48,
+                "text": "SAB"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 98,
+                "labels": [
+                  "Location"
+                ],
+                "start": 94,
+                "text": "Lech"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 108,
+                "labels": [
+                  "Location"
+                ],
+                "start": 103,
+                "text": "Tychy"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 189,
+                "labels": [
+                  "Location"
+                ],
+                "start": 180,
+                "text": "Australia"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 217,
+                "labels": [
+                  "Location"
+                ],
+                "start": 209,
+                "text": "Brewpole"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 10,
+                "labels": [
+                  "Person"
+                ],
+                "start": 8,
+                "text": "BV"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 238,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 232,
+                "text": "Poland"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 270,
+                "labels": [
+                  "Location"
+                ],
+                "start": 261,
+                "text": "Elbrewery"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 278,
+                "labels": [
+                  "Location"
+                ],
+                "start": 271,
+                "text": "Company"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 282,
+                "labels": [
+                  "Location"
+                ],
+                "start": 279,
+                "text": "Ltd"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 3,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 1,
+                "text": "EB"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:29:46.370350Z",
+          "updated_at": "2024-04-09T20:29:46.370350Z",
+          "task": 6629,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 521,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "1\u00a0minute",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 94,
+                "end": 98,
+                "text": "Lech",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "J8nojujayD",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 103,
+                "end": 108,
+                "text": "Tychy",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "MKlDdbrCZg",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 180,
+                "end": 189,
+                "text": "Australia",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "UaQMUcKaVP",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 18,
+                "end": 53,
+                "text": "South African Breweries Ltd ( SAB )",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "qoOLqETGDS",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 232,
+                "end": 238,
+                "text": "Poland",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "abMWzEdcLg",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 261,
+                "end": 290,
+                "text": "Elbrewery Company Ltd. ( EB )",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "9tv3FElrqc",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:31:19.200861Z",
+          "updated_at": "2024-04-09T20:31:19.200861Z",
+          "draft_created_at": "2024-04-09T20:29:55.634711Z",
+          "lead_time": 92.681,
+          "import_id": null,
+          "last_action": null,
+          "task": 6629,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2953,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 18,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:31:19.200861Z",
+      "annotations_results": "[{value: {start: 94, end: 98, text: Lech, labels: [Organization]}, id: J8nojujayD, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 103, end: 108, text: Tychy, labels: [Organization]}, id: MKlDdbrCZg, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 180, end: 189, text: Australia, labels: [Location]}, id: UaQMUcKaVP, from_nam",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 42, end: 45, text: Ltd, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 48, end: 51, text: SAB, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 94, end: 98, text: Lech, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 103, end",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "521",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 92.681,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "Earlier this year South African Breweries Ltd ( SAB ) bought strategic stakes in the unlisted Lech and Tychy brewers , which together hold more than 20 percent of the market , and Australia 's Brewpole BV has a controlling stake in Poland 's larges t brewery , Elbrewery Company Ltd. ( EB ) ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:31:19.371343Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6630,
+      "predictions": [
+        {
+          "id": 2936,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 4,
+                "end": 12,
+                "text": "Canadian",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 19,
+                "end": 24,
+                "text": "Board",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 94,
+                "end": 98,
+                "text": "West",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 99,
+                "end": 104,
+                "text": "Coast",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.502084Z",
+          "updated_at": "2024-04-09T20:31:22.884411Z",
+          "task": 6630,
+          "project": 3
+        },
+        {
+          "id": 2954,
+          "model_version": "INITIAL",
+          "created_ago": "1\u00a0minute",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 12,
+                "labels": [
+                  "Location"
+                ],
+                "start": 4,
+                "text": "Canadian"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 24,
+                "labels": [
+                  "Location"
+                ],
+                "start": 19,
+                "text": "Board"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 98,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 94,
+                "text": "West"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 104,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 99,
+                "text": "Coast"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:31:22.016623Z",
+          "updated_at": "2024-04-09T20:31:22.016623Z",
+          "task": 6630,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 522,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "1\u00a0minute",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 4,
+                "end": 24,
+                "text": "Canadian Wheat Board",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "6pPJAtZ9Xn",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 85,
+                "end": 104,
+                "text": "Canadian West Coast",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "9cjvc367U1",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:31:54.332422Z",
+          "updated_at": "2024-04-09T20:31:54.332422Z",
+          "draft_created_at": "2024-04-09T20:31:32.064456Z",
+          "lead_time": 32.173,
+          "import_id": null,
+          "last_action": null,
+          "task": 6630,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2954,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 19,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:31:54.332422Z",
+      "annotations_results": "[{value: {start: 4, end: 24, text: Canadian Wheat Board, labels: [Organization]}, id: 6pPJAtZ9Xn, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 85, end: 104, text: Canadian West Coast, labels: [Location]}, id: 9cjvc367U1, from_name: label, to_name: text, type: labels, origin: manual}] [{value: {start: 4, end: 24, text: Canadian Wheat Board, labels: [Organization]}, id: 6pPJAtZ9X",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 4, end: 12, text: Canadian, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 19, end: 24, text: Board, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 94, end: 98, text: West, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 99, ",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "522",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 32.173,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "The Canadian Wheat Board reported six ships loading , 10 waiting and four due at the Canadian West Coast , as of Friday ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:31:54.500357Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    },
+    {
+      "id": 6631,
+      "predictions": [
+        {
+          "id": 2937,
+          "model_version": "CLaSP_v1",
+          "created_ago": "36\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 32,
+                "end": 36,
+                "text": "West",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 37,
+                "end": 42,
+                "text": "Coast",
+                "labels": [
+                  "Location"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T19:57:06.562260Z",
+          "updated_at": "2024-04-09T20:31:57.365527Z",
+          "task": 6631,
+          "project": 3
+        },
+        {
+          "id": 2955,
+          "model_version": "INITIAL",
+          "created_ago": "1\u00a0minute",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 36,
+                "labels": [
+                  "Location"
+                ],
+                "start": 32,
+                "text": "West"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 42,
+                "labels": [
+                  "Location"
+                ],
+                "start": 37,
+                "text": "Coast"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-09T20:31:56.738711Z",
+          "updated_at": "2024-04-09T20:31:56.738711Z",
+          "task": 6631,
+          "project": 3
+        }
+      ],
+      "annotations": [
+        {
+          "id": 523,
+          "created_username": " ara5580@rit.edu, 12",
+          "created_ago": "1\u00a0minute",
+          "completed_by": 12,
+          "result": [
+            {
+              "value": {
+                "start": 32,
+                "end": 36,
+                "text": "West",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "mtnET494Co",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 37,
+                "end": 42,
+                "text": "Coast",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "UVG3VAwGCn",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-09T20:32:07.594529Z",
+          "updated_at": "2024-04-09T20:32:07.594529Z",
+          "draft_created_at": null,
+          "lead_time": 10.752,
+          "import_id": null,
+          "last_action": null,
+          "task": 6631,
+          "project": 3,
+          "updated_by": 12,
+          "parent_prediction": 2955,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        12
+      ],
+      "inner_id": 20,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-09T20:32:07.594529Z",
+      "annotations_results": "[{value: {start: 32, end: 36, text: West, labels: [Location]}, id: mtnET494Co, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 37, end: 42, text: Coast, labels: [Location]}, id: UVG3VAwGCn, from_name: label, to_name: text, type: labels, origin: prediction}] [{value: {start: 32, end: 36, text: West, labels: [Location]}, id: mtnET494Co, from_name: label, to_name: text, ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 32, end: 36, text: West, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 37, end: 42, text: Coast, labels: [Location]}}] [{from_name: label, to_name: text, type: labels, value: {end: 36, labels: [Location], start: 32, text: West}}, {from_name: label, to_name: text, type: labels, value: {end: 42, labels",
+      "predictions_score": null,
+      "file_upload": "29c1a077-solo_con.json",
+      "storage_filename": null,
+      "annotations_ids": "523",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 10.752,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 12
+        }
+      ],
+      "data": {
+        "text": "The longest wait to load on the West Coast was 13 days ."
+      },
+      "meta": {},
+      "created_at": "2024-04-09T19:54:59.445027Z",
+      "updated_at": "2024-04-09T20:32:07.739683Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 3,
+      "comment_authors": []
+    }
+  ]
+}

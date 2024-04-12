@@ -18,22 +18,13 @@ def collect_and_filter_streams(stream_names, hostnames):
                     inlet = StreamInlet(stream)
                     sample, timestamp = inlet.pull_sample(timeout=0.5)
                     if sample:
-                        if stream_name == "GSR2":
-                            filtered_streams[f"{stream_name}_{hostnames['huginn']}"] = (
-                                inlet,
-                                stream_names[stream_name],
-                                hostnames['huginn'],
-                            )
-                            print(
-                            f"Stream {stream_name} from {stream_hostname} (Participant {hostnames['huginn']}) collected.")
-                        else:
-                            filtered_streams[f"{stream_name}_{participant_id}"] = (
-                                inlet,
-                                stream_names[stream_name],
-                                participant_id,
-                            )
-                            print(
-                            f"Stream {stream_name} from {stream_hostname} (Participant {participant_id}) collected.")
+                        filtered_streams[f"{stream_name}_{participant_id}"] = (
+                            inlet,
+                            stream_names[stream_name],
+                            participant_id,
+                        )
+                        print(
+                        f"Stream {stream_name} from {stream_hostname} (Participant {participant_id}) collected.")
                 except Exception as e:
                     print(
                         f"Error creating inlet for stream {stream_name} from {stream_hostname}: {e}"

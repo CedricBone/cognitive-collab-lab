@@ -1,3 +1,6 @@
 /recordings/
-analysis/data/
+analysis/data/pair/recordings
+analysis/data/solo/recordings
+analysis/data/pair_con/recordings
+analysis/data/solo_con/recordings
 /demo/

@@ -1,0 +1,11 @@
+{
+    "Initial model accuracy with respect to dataset": 0.8893203883495145,
+    "Annotation accuracy with respect to dataset for Participant 001,006": 0.974757281553398,
+    "Updated model accuracy with respect to dataset for Participant 001,006": 0.8893203883495145,
+    "Updated model accuracy with respect to annotation for Participant 001,006": 0.883495145631068,
+    "Initial model accuracy with respect to annotation for Participant 001,006": 0.883495145631068,
+    "Annotation accuracy with respect to dataset for Participant 002,003": 0.9339805825242719,
+    "Updated model accuracy with respect to dataset for Participant 002,003": 0.8893203883495145,
+    "Updated model accuracy with respect to annotation for Participant 002,003": 0.8466019417475729,
+    "Initial model accuracy with respect to annotation for Participant 002,003": 0.8466019417475729
+}

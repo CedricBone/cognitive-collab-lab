@@ -1,0 +1,4559 @@
+{
+  "total_annotations": 20,
+  "total_predictions": 38,
+  "total": 20,
+  "tasks": [
+    {
+      "id": 6472,
+      "predictions": [
+        {
+          "id": 2782,
+          "model_version": "INITIAL",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 6,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "ALPINE"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 13,
+                "labels": [
+                  "Location"
+                ],
+                "start": 7,
+                "text": "SKIING"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:42.931207Z",
+          "updated_at": "2024-04-06T17:56:42.931207Z",
+          "task": 6472,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 464,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "24\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 27,
+                "end": 36,
+                "text": "WORLD CUP",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "S_MME9d-oI",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 14,
+                "end": 21,
+                "text": "GOETCHL",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "yFFNGgb1Ga",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:02:29.192066Z",
+          "updated_at": "2024-04-06T19:02:29.192066Z",
+          "draft_created_at": "2024-04-06T19:01:44.032135Z",
+          "lead_time": 174.413,
+          "import_id": null,
+          "last_action": null,
+          "task": 6472,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2782,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 1,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 1,
+      "completed_at": "2024-04-06T19:02:29.192066Z",
+      "annotations_results": "[{value: {start: 27, end: 36, text: WORLD CUP, labels: [Organization]}, id: S_MME9d-oI, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 14, end: 21, text: GOETCHL, labels: [Person]}, id: yFFNGgb1Ga, from_name: label, to_name: text, type: labels, origin: manual}]",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 6, labels: [Organization], start: 0, text: ALPINE}}, {from_name: label, to_name: text, type: labels, value: {end: 13, labels: [Location], start: 7, text: SKIING}}]",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "464",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": 174.413,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "ALPINE SKIING-GOETCHL WINS WORLD CUP DOWNHILL ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:02:29.251919Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6473,
+      "predictions": [
+        {
+          "id": 2783,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Katja",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 6,
+                "end": 15,
+                "text": "Seizinger",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 19,
+                "end": 26,
+                "text": "Germany",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 47,
+                "end": 53,
+                "text": "Islode",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 54,
+                "end": 61,
+                "text": "Kostner",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 65,
+                "end": 70,
+                "text": "Italy",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:42.973096Z",
+          "updated_at": "2024-04-06T19:02:32.581035Z",
+          "task": 6473,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 465,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "22\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 19,
+                "end": 26,
+                "text": "Germany",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "lkka7zGAEW",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 65,
+                "end": 70,
+                "text": "Italy",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "hrtobKvdw3",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 15,
+                "text": "Katja Seizinger",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "ftaH7N5Osb",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 47,
+                "end": 61,
+                "text": "Islode Kostner",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "5EdsrprfIO",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:03:59.036116Z",
+          "updated_at": "2024-04-06T19:03:59.036116Z",
+          "draft_created_at": "2024-04-06T19:02:45.957116Z",
+          "lead_time": 87.81,
+          "import_id": null,
+          "last_action": null,
+          "task": 6473,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2783,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 2,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 1,
+      "completed_at": "2024-04-06T19:03:59.036116Z",
+      "annotations_results": "[{value: {start: 19, end: 26, text: Germany, labels: [Location]}, id: lkka7zGAEW, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 65, end: 70, text: Italy, labels: [Location]}, id: hrtobKvdw3, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 0, end: 15, text: Katja Seizinger, labels: [Person]}, id: ftaH7N5Osb, from_name: l",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: Katja, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 6, end: 15, text: Seizinger, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 19, end: 26, text: Germany, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: ",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "465",
+      "predictions_model_versions": "CLaSP_v1",
+      "avg_lead_time": 87.81,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "Katja Seizinger of Germany finished second and Islode Kostner of Italy took third ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:03:59.129086Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6474,
+      "predictions": [
+        {
+          "id": 2784,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Brian",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 6,
+                "end": 12,
+                "text": "Shimer",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 21,
+                "end": 24,
+                "text": "USA",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 25,
+                "end": 28,
+                "text": "III",
+                "labels": [
+                  "Location"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.016242Z",
+          "updated_at": "2024-04-06T19:04:02.068129Z",
+          "task": 6474,
+          "project": 5
+        },
+        {
+          "id": 2802,
+          "model_version": "INITIAL",
+          "created_ago": "22\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Brian"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 12,
+                "labels": [
+                  "Person"
+                ],
+                "start": 6,
+                "text": "Shimer"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 24,
+                "labels": [
+                  "Location"
+                ],
+                "start": 21,
+                "text": "USA"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 28,
+                "labels": [
+                  "Location"
+                ],
+                "start": 25,
+                "text": "III"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:04:01.366321Z",
+          "updated_at": "2024-04-06T19:04:01.366321Z",
+          "task": 6474,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 466,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "21\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 21,
+                "end": 24,
+                "text": "USA",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "18ARr9LlLi",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 12,
+                "text": "Brian Shimer",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "ZuBSqJc3rw",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 56,
+                "end": 65,
+                "text": "World Cup",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "XN0YmqpnQM",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:05:09.323999Z",
+          "updated_at": "2024-04-06T19:05:09.323999Z",
+          "draft_created_at": "2024-04-06T19:04:20.304072Z",
+          "lead_time": 67.797,
+          "import_id": null,
+          "last_action": null,
+          "task": 6474,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2802,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 3,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:05:09.323999Z",
+      "annotations_results": "[{value: {start: 21, end: 24, text: USA, labels: [Location]}, id: 18ARr9LlLi, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 0, end: 12, text: Brian Shimer, labels: [Person]}, id: ZuBSqJc3rw, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 56, end: 65, text: World Cup, labels: [Organization]}, id: XN0YmqpnQM, from_name: label, to_name: ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: Brian, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 6, end: 12, text: Shimer, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 21, end: 24, text: USA, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 25, end: 28, t",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "466",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 67.797,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "Brian Shimer piloted USA III to a surprise victory in a World Cup two-man bobsleigh race on Saturday ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:05:09.399796Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6475,
+      "predictions": [
+        {
+          "id": 2785,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 34,
+                "end": 40,
+                "text": "Shimer",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 54,
+                "end": 59,
+                "text": "Randy",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 60,
+                "end": 65,
+                "text": "Jones",
+                "labels": [
+                  "Person"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.061305Z",
+          "updated_at": "2024-04-06T19:05:12.450093Z",
+          "task": 6475,
+          "project": 5
+        },
+        {
+          "id": 2803,
+          "model_version": "INITIAL",
+          "created_ago": "21\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 40,
+                "labels": [
+                  "Person"
+                ],
+                "start": 34,
+                "text": "Shimer"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 59,
+                "labels": [
+                  "Person"
+                ],
+                "start": 54,
+                "text": "Randy"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 65,
+                "labels": [
+                  "Person"
+                ],
+                "start": 60,
+                "text": "Jones"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:05:11.643052Z",
+          "updated_at": "2024-04-06T19:05:11.643052Z",
+          "task": 6475,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 467,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "19\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 34,
+                "end": 40,
+                "text": "Shimer",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "XHNmeU8alF",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 54,
+                "end": 65,
+                "text": "Randy Jones",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "PAtbfEiXrZ",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 112,
+                "end": 131,
+                "text": "1976 Olympic course",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "Z0dChuQHhy",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:07:08.337962Z",
+          "updated_at": "2024-04-06T19:07:08.337962Z",
+          "draft_created_at": "2024-04-06T19:05:25.242432Z",
+          "lead_time": 116.204,
+          "import_id": null,
+          "last_action": null,
+          "task": 6475,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2803,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 4,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:07:08.337962Z",
+      "annotations_results": "[{value: {start: 34, end: 40, text: Shimer, labels: [Person]}, id: XHNmeU8alF, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 54, end: 65, text: Randy Jones, labels: [Person]}, id: PAtbfEiXrZ, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 112, end: 131, text: 1976 Olympic course, labels: [Location]}, id: Z0dChuQHhy, from_name: label, to",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 34, end: 40, text: Shimer, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 54, end: 59, text: Randy, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 60, end: 65, text: Jones, labels: [Person]}}] [{from_name: label, to_name: text, type: labels, value: {end: 40, labels: [",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "467",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 116.204,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "Lying fifth after the first run , Shimer and breakman Randy Jones delivered a near-perfect second trip down the 1976 Olympic course for an aggregate time of one minute 45.91 seconds ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:07:08.411756Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6476,
+      "predictions": [
+        {
+          "id": 2786,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 18,
+                "end": 26,
+                "text": "Guenther",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 27,
+                "end": 32,
+                "text": "Huber",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 46,
+                "end": 53,
+                "text": "Antonio",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 54,
+                "end": 63,
+                "text": "Tartaglia",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 71,
+                "end": 76,
+                "text": "Italy",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 77,
+                "end": 78,
+                "text": "I",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.115628Z",
+          "updated_at": "2024-04-06T19:07:11.408620Z",
+          "task": 6476,
+          "project": 5
+        },
+        {
+          "id": 2804,
+          "model_version": "INITIAL",
+          "created_ago": "19\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 26,
+                "labels": [
+                  "Location"
+                ],
+                "start": 18,
+                "text": "Guenther"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 32,
+                "labels": [
+                  "Location"
+                ],
+                "start": 27,
+                "text": "Huber"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 53,
+                "labels": [
+                  "Person"
+                ],
+                "start": 46,
+                "text": "Antonio"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 63,
+                "labels": [
+                  "Person"
+                ],
+                "start": 54,
+                "text": "Tartaglia"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 76,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 71,
+                "text": "Italy"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 78,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 77,
+                "text": "I"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:07:10.670002Z",
+          "updated_at": "2024-04-06T19:07:10.670002Z",
+          "task": 6476,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 468,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "16\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 71,
+                "end": 76,
+                "text": "Italy",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "h05Cv62O_4",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 18,
+                "end": 32,
+                "text": "Guenther Huber",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "oTxDaj6HdX",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 46,
+                "end": 63,
+                "text": "Antonio Tartaglia",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "qWMiFqST-d",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 136,
+                "end": 149,
+                "text": "the Americans",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "ibuWr6n9CI",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:10:24.947821Z",
+          "updated_at": "2024-04-06T19:13:39.971493Z",
+          "draft_created_at": "2024-04-06T19:07:30.628425Z",
+          "lead_time": 199.891,
+          "import_id": null,
+          "last_action": null,
+          "task": 6476,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2804,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 5,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:10:24.947821Z",
+      "annotations_results": "[{value: {start: 71, end: 76, text: Italy, labels: [Location]}, id: h05Cv62O_4, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 18, end: 32, text: Guenther Huber, labels: [Person]}, id: oTxDaj6HdX, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 46, end: 63, text: Antonio Tartaglia, labels: [Person]}, id: qWMiFqST-d, from_name: label",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 18, end: 26, text: Guenther, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 27, end: 32, text: Huber, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 46, end: 53, text: Antonio, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 54, e",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "468",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 199.891,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "First run leaders Guenther Huber and breakman Antonio Tartaglia in the Italy I sleigh finished second two-hundredths of a second behind the Americans ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:13:40.087324Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6477,
+      "predictions": [
+        {
+          "id": 2787,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 6,
+                "text": "Canada",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 26,
+                "end": 32,
+                "text": "Pierre",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 33,
+                "end": 40,
+                "text": "Lueders",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 54,
+                "end": 58,
+                "text": "Dave",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 59,
+                "end": 69,
+                "text": "MacEachern",
+                "labels": [
+                  "Person"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.181319Z",
+          "updated_at": "2024-04-06T19:10:28.018372Z",
+          "task": 6477,
+          "project": 5
+        },
+        {
+          "id": 2805,
+          "model_version": "INITIAL",
+          "created_ago": "16\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 6,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "Canada"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 32,
+                "labels": [
+                  "Person"
+                ],
+                "start": 26,
+                "text": "Pierre"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 40,
+                "labels": [
+                  "Person"
+                ],
+                "start": 33,
+                "text": "Lueders"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 58,
+                "labels": [
+                  "Person"
+                ],
+                "start": 54,
+                "text": "Dave"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 69,
+                "labels": [
+                  "Person"
+                ],
+                "start": 59,
+                "text": "MacEachern"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:10:27.180730Z",
+          "updated_at": "2024-04-06T19:10:27.180730Z",
+          "task": 6477,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 469,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "13\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 6,
+                "text": "Canada",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "kDG9TsVn2d",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 26,
+                "end": 40,
+                "text": "Pierre Lueders",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "2n1koS9MYz",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 54,
+                "end": 69,
+                "text": "Dave MacEachern",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "ckhEDh8VYr",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 92,
+                "end": 101,
+                "text": "World cup",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "Or5SyEd9ui",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 165,
+                "end": 177,
+                "text": "the Italians",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "C9ftg3bXRc",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:12:40.700452Z",
+          "updated_at": "2024-04-06T19:13:58.667698Z",
+          "draft_created_at": "2024-04-06T19:11:04.985772Z",
+          "lead_time": 148.24599999999998,
+          "import_id": null,
+          "last_action": null,
+          "task": 6477,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2805,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 6,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:12:40.700452Z",
+      "annotations_results": "[{value: {start: 0, end: 6, text: Canada, labels: [Location]}, id: kDG9TsVn2d, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 26, end: 40, text: Pierre Lueders, labels: [Person]}, id: 2n1koS9MYz, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 54, end: 69, text: Dave MacEachern, labels: [Person]}, id: ckhEDh8VYr, from_name: label, ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 6, text: Canada, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 26, end: 32, text: Pierre, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 33, end: 40, text: Lueders, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 54, en",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "469",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 148.24599999999998,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "Canada I , represented by Pierre Lueders and breakman Dave MacEachern , completed the third World cup event of the winter a further one-hundredth of a second behind the Italians ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:13:58.766496Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6478,
+      "predictions": [
+        {
+          "id": 2788,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 53,
+                "end": 62,
+                "text": "Altenberg",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 65,
+                "end": 72,
+                "text": "Germany",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 79,
+                "end": 81,
+                "text": "La",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 82,
+                "end": 88,
+                "text": "Plagne",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 91,
+                "end": 97,
+                "text": "France",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.229190Z",
+          "updated_at": "2024-04-06T19:14:01.684675Z",
+          "task": 6478,
+          "project": 5
+        },
+        {
+          "id": 2806,
+          "model_version": "INITIAL",
+          "created_ago": "13\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 62,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 53,
+                "text": "Altenberg"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 72,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 65,
+                "text": "Germany"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 81,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 79,
+                "text": "La"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 88,
+                "labels": [
+                  "Location"
+                ],
+                "start": 82,
+                "text": "Plagne"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 97,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 91,
+                "text": "France"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:12:42.927556Z",
+          "updated_at": "2024-04-06T19:12:42.927556Z",
+          "task": 6478,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 470,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "12\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 53,
+                "end": 62,
+                "text": "Altenberg",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "kI9ByQKlgE",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 65,
+                "end": 72,
+                "text": "Germany",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "33z5VfWynB",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 79,
+                "end": 97,
+                "text": "La Plagne , France",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "rU4ZUe6xWy",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 128,
+                "end": 137,
+                "text": "World Cup",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "DDE9ZGp14a",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 13,
+                "text": "The Canadians",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "5EkIfLTuu7",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:14:28.423470Z",
+          "updated_at": "2024-04-06T19:14:28.423470Z",
+          "draft_created_at": "2024-04-06T19:12:53.381944Z",
+          "lead_time": 65.038,
+          "import_id": null,
+          "last_action": null,
+          "task": 6478,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": null,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 7,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:14:28.423470Z",
+      "annotations_results": "[{value: {start: 53, end: 62, text: Altenberg, labels: [Location]}, id: kI9ByQKlgE, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 65, end: 72, text: Germany, labels: [Location]}, id: 33z5VfWynB, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 79, end: 97, text: La Plagne , France, labels: [Location]}, id: rU4ZUe6xWy, from",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 53, end: 62, text: Altenberg, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 65, end: 72, text: Germany, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 79, end: 81, text: La, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {st",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "470",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 65.038,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "The Canadians , winners of the opening two events in Altenberg , Germany , and La Plagne , France , increased their lead in the World Cup standings ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:14:28.508487Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6479,
+      "predictions": [
+        {
+          "id": 2789,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "China",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 115,
+                "end": 121,
+                "text": "Tignes",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.277063Z",
+          "updated_at": "2024-04-06T19:14:31.436635Z",
+          "task": 6479,
+          "project": 5
+        },
+        {
+          "id": 2807,
+          "model_version": "INITIAL",
+          "created_ago": "12\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "China"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 121,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 115,
+                "text": "Tignes"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:14:30.655634Z",
+          "updated_at": "2024-04-06T19:14:30.656630Z",
+          "task": 6479,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 471,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "11\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "China",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "mNVKkiuXTn",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 53,
+                "end": 62,
+                "text": "world cup",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "_aMTVQSP9u",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 98,
+                "end": 121,
+                "text": "French resort of Tignes",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "Ygf5jhFQWG",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:15:14.231399Z",
+          "updated_at": "2024-04-06T19:15:14.231399Z",
+          "draft_created_at": "2024-04-06T19:14:42.766883Z",
+          "lead_time": 43.454,
+          "import_id": null,
+          "last_action": null,
+          "task": 6479,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2807,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 8,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:15:14.231399Z",
+      "annotations_results": "[{value: {start: 0, end: 5, text: China, labels: [Location]}, id: mNVKkiuXTn, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 53, end: 62, text: world cup, labels: [Organization]}, id: _aMTVQSP9u, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 98, end: 121, text: French resort of Tignes, labels: [Location]}, id: Ygf5jhFQWG, from_name",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: China, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 115, end: 121, text: Tignes, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 5, labels: [Organization], start: 0, text: China}}, {from_name: label, to_name: text, type: labels, value: {end:",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "471",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 43.454,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "China made a promising debut on the freestyle skiing world cup circuit in an aerials event in the French resort of Tignes on Saturday ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:15:14.314254Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6480,
+      "predictions": [
+        {
+          "id": 2790,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 63,
+                "end": 66,
+                "text": "Cuo",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 124,
+                "end": 127,
+                "text": "Dan",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 167,
+                "end": 173,
+                "text": "Nannan",
+                "labels": [
+                  "Person"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.319947Z",
+          "updated_at": "2024-04-06T19:15:17.354340Z",
+          "task": 6480,
+          "project": 5
+        },
+        {
+          "id": 2808,
+          "model_version": "INITIAL",
+          "created_ago": "11\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 66,
+                "labels": [
+                  "Person"
+                ],
+                "start": 63,
+                "text": "Cuo"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 127,
+                "labels": [
+                  "Person"
+                ],
+                "start": 124,
+                "text": "Dan"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 173,
+                "labels": [
+                  "Person"
+                ],
+                "start": 167,
+                "text": "Nannan"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:15:16.580544Z",
+          "updated_at": "2024-04-06T19:15:16.580544Z",
+          "task": 6480,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 472,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "10\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 6,
+                "end": 17,
+                "text": "the Chinese",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "Tvkd7FIt47",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 120,
+                "end": 127,
+                "text": "Cuo Dan",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "41DLraAFkN",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 164,
+                "end": 173,
+                "text": "Xu Nannan",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "QXeJ9smdF0",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:16:12.744055Z",
+          "updated_at": "2024-04-06T19:16:12.744055Z",
+          "draft_created_at": "2024-04-06T19:15:28.979641Z",
+          "lead_time": 56.059,
+          "import_id": null,
+          "last_action": null,
+          "task": 6480,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2808,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 9,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:16:12.744055Z",
+      "annotations_results": "[{value: {start: 6, end: 17, text: the Chinese, labels: [Organization]}, id: Tvkd7FIt47, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 120, end: 127, text: Cuo Dan, labels: [Person]}, id: 41DLraAFkN, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 164, end: 173, text: Xu Nannan, labels: [Person]}, id: QXeJ9smdF0, from_name: label, to_name: ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 63, end: 66, text: Cuo, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 124, end: 127, text: Dan, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 167, end: 173, text: Nannan, labels: [Person]}}] [{from_name: label, to_name: text, type: labels, value: {end: 66, labels: [",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "472",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 56.059,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "While the Chinese failed to gain a place in the men 's final , they had two in the top 10 of the women 's competition , Cuo Dan finishing a respectable seventh and Xu Nannan ninth ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:16:12.863418Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6481,
+      "predictions": [
+        {
+          "id": 2791,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 21,
+                "end": 27,
+                "text": "France",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 32,
+                "end": 38,
+                "text": "Canada",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.363831Z",
+          "updated_at": "2024-04-06T19:16:15.801614Z",
+          "task": 6481,
+          "project": 5
+        },
+        {
+          "id": 2809,
+          "model_version": "INITIAL",
+          "created_ago": "10\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 27,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 21,
+                "text": "France"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 38,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 32,
+                "text": "Canada"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:16:15.064756Z",
+          "updated_at": "2024-04-06T19:16:15.064756Z",
+          "task": 6481,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 473,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "10\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 21,
+                "end": 27,
+                "text": "France",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "a9ArDlDJBG",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 32,
+                "end": 38,
+                "text": "Canada",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "FknoDc__3U",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:16:33.883435Z",
+          "updated_at": "2024-04-06T19:16:33.883435Z",
+          "draft_created_at": "2024-04-06T19:16:23.021773Z",
+          "lead_time": 18.693,
+          "import_id": null,
+          "last_action": null,
+          "task": 6481,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2809,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 10,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:16:33.883435Z",
+      "annotations_results": "[{value: {start: 21, end: 27, text: France, labels: [Location]}, id: a9ArDlDJBG, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 32, end: 38, text: Canada, labels: [Location]}, id: FknoDc__3U, from_name: label, to_name: text, type: labels, origin: prediction-changed}] [{value: {start: 21, end: 27, text: France, labels: [Location]}, id: a9ArDlDJBG, from_name: label",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 21, end: 27, text: France, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 32, end: 38, text: Canada, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 27, labels: [Organization], start: 21, text: France}}, {from_name: label, to_name: text, type: labels, value: {e",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "473",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 18.693,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "But overall , it was France and Canada who dominated the day ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:16:33.972199Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6482,
+      "predictions": [
+        {
+          "id": 2792,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 6,
+                "text": "Alexis",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 7,
+                "end": 12,
+                "text": "Blanc",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 17,
+                "end": 26,
+                "text": "Sebastien",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 27,
+                "end": 34,
+                "text": "Foucras",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 40,
+                "end": 46,
+                "text": "France",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.409708Z",
+          "updated_at": "2024-04-06T19:16:36.865550Z",
+          "task": 6482,
+          "project": 5
+        },
+        {
+          "id": 2810,
+          "model_version": "INITIAL",
+          "created_ago": "10\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 6,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "Alexis"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 12,
+                "labels": [
+                  "Location"
+                ],
+                "start": 7,
+                "text": "Blanc"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 26,
+                "labels": [
+                  "Person"
+                ],
+                "start": 17,
+                "text": "Sebastien"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 34,
+                "labels": [
+                  "Location"
+                ],
+                "start": 27,
+                "text": "Foucras"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 46,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 40,
+                "text": "France"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:16:36.139361Z",
+          "updated_at": "2024-04-06T19:16:36.139361Z",
+          "task": 6482,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 474,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "9\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 40,
+                "end": 46,
+                "text": "France",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "Pp0mmhkpvC",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 12,
+                "text": "Alexis Blanc",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "Z2YzchWvm0",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 17,
+                "end": 34,
+                "text": "Sebastien Foucras",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "fT6Iba4iEK",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:17:14.534419Z",
+          "updated_at": "2024-04-06T19:17:14.534419Z",
+          "draft_created_at": "2024-04-06T19:16:47.164855Z",
+          "lead_time": 38.292,
+          "import_id": null,
+          "last_action": null,
+          "task": 6482,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2810,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 11,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:17:14.534419Z",
+      "annotations_results": "[{value: {start: 40, end: 46, text: France, labels: [Location]}, id: Pp0mmhkpvC, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 0, end: 12, text: Alexis Blanc, labels: [Person]}, id: Z2YzchWvm0, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 17, end: 34, text: Sebastien Foucras, labels: [Person]}, id: fT6Iba4iEK, from_name: label,",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 6, text: Alexis, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 7, end: 12, text: Blanc, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 17, end: 26, text: Sebastien, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 27, ",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "474",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 38.292,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "Alexis Blanc and Sebastien Foucras gave France a one-two finish in the first aerials competition of the season ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:17:14.635490Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6483,
+      "predictions": [
+        {
+          "id": 2793,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 114,
+                "end": 121,
+                "text": "Foucras",
+                "labels": [
+                  "Location"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.457580Z",
+          "updated_at": "2024-04-06T19:17:17.547491Z",
+          "task": 6483,
+          "project": 5
+        },
+        {
+          "id": 2811,
+          "model_version": "INITIAL",
+          "created_ago": "9\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 121,
+                "labels": [
+                  "Location"
+                ],
+                "start": 114,
+                "text": "Foucras"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:17:16.917358Z",
+          "updated_at": "2024-04-06T19:17:16.917358Z",
+          "task": 6483,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 475,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "8\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 114,
+                "end": 121,
+                "text": "Foucras",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "DCza1i7MdD",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 35,
+                "end": 44,
+                "text": "World Cup",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "oW8Q2CeVhA",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 136,
+                "end": 145,
+                "text": "World Cup",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "egLu7CtmAq",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Blanc",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "CDi7lXs_LU",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:18:20.084316Z",
+          "updated_at": "2024-04-06T19:18:20.084316Z",
+          "draft_created_at": "2024-04-06T19:17:42.927542Z",
+          "lead_time": 63.06,
+          "import_id": null,
+          "last_action": null,
+          "task": 6483,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2811,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 12,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:18:20.084316Z",
+      "annotations_results": "[{value: {start: 114, end: 121, text: Foucras, labels: [Person]}, id: DCza1i7MdD, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 35, end: 44, text: World Cup, labels: [Organization]}, id: oW8Q2CeVhA, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 136, end: 145, text: World Cup, labels: [Organization]}, id: egLu7CtmAq, from_name: la",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 114, end: 121, text: Foucras, labels: [Location]}}] [{from_name: label, to_name: text, type: labels, value: {end: 121, labels: [Location], start: 114, text: Foucras}}]",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "475",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 63.06,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "Blanc collected his seventh career World Cup win with a two jump combined score of 238.36 points , easily beating Foucras , the overall World Cup aerials champion , who was a distant second with 223.60 ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:18:20.191279Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6484,
+      "predictions": [
+        {
+          "id": 2794,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 8,
+                "text": "Veronica",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 9,
+                "end": 16,
+                "text": "Brenner",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 20,
+                "end": 26,
+                "text": "Canada",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 71,
+                "end": 77,
+                "text": "Tignes",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.500464Z",
+          "updated_at": "2024-04-06T19:18:23.213468Z",
+          "task": 6484,
+          "project": 5
+        },
+        {
+          "id": 2812,
+          "model_version": "INITIAL",
+          "created_ago": "8\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 8,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "Veronica"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 16,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 9,
+                "text": "Brenner"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 26,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 20,
+                "text": "Canada"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 77,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 71,
+                "text": "Tignes"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:18:22.379267Z",
+          "updated_at": "2024-04-06T19:18:22.380265Z",
+          "task": 6484,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 476,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "7\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 20,
+                "end": 26,
+                "text": "Canada",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "ISG9MvyA_n",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 71,
+                "end": 77,
+                "text": "Tignes",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "dXTbH89Paf",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 16,
+                "text": "Veronica Brenner",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "8Df9xpoHcd",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 119,
+                "end": 136,
+                "text": "the French resort",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "Mvo-zkt3mv",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:18:50.690321Z",
+          "updated_at": "2024-04-06T19:18:50.690321Z",
+          "draft_created_at": "2024-04-06T19:18:30.617486Z",
+          "lead_time": 28.202,
+          "import_id": null,
+          "last_action": null,
+          "task": 6484,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2812,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 13,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:18:50.690321Z",
+      "annotations_results": "[{value: {start: 20, end: 26, text: Canada, labels: [Location]}, id: ISG9MvyA_n, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 71, end: 77, text: Tignes, labels: [Location]}, id: dXTbH89Paf, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 0, end: 16, text: Veronica Brenner, labels: [Person]}, id: 8Df9xpoHcd, from_name: ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 8, text: Veronica, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 9, end: 16, text: Brenner, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 20, end: 26, text: Canada, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {st",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "476",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 28.202,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "Veronica Brenner of Canada , who picked up her first career victory at Tignes last year , made it two wins in a row at the French resort taking first in the women 's competition with a score of 170.42 ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:18:50.794251Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6485,
+      "predictions": [
+        {
+          "id": 2795,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 59,
+                "end": 64,
+                "text": "Karin",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 65,
+                "end": 71,
+                "text": "Kuster",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 124,
+                "end": 127,
+                "text": "Leu",
+                "labels": [
+                  "Person"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.542353Z",
+          "updated_at": "2024-04-06T19:18:53.661451Z",
+          "task": 6485,
+          "project": 5
+        },
+        {
+          "id": 2813,
+          "model_version": "INITIAL",
+          "created_ago": "7\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 64,
+                "labels": [
+                  "Person"
+                ],
+                "start": 59,
+                "text": "Karin"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 71,
+                "labels": [
+                  "Person"
+                ],
+                "start": 65,
+                "text": "Kuster"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 127,
+                "labels": [
+                  "Person"
+                ],
+                "start": 124,
+                "text": "Leu"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:18:52.989058Z",
+          "updated_at": "2024-04-06T19:18:52.989058Z",
+          "task": 6485,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 477,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "6\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 59,
+                "end": 71,
+                "text": "Karin Kuster",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "WFv5VW0yhP",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 116,
+                "end": 127,
+                "text": "Evelyne Leu",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "tBuYSOr-g2",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 6,
+                "end": 12,
+                "text": "skiers",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "msGXoxazik",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Swiss",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "6djPDybwLa",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:20:32.047247Z",
+          "updated_at": "2024-04-06T19:20:32.048245Z",
+          "draft_created_at": "2024-04-06T19:19:04.249412Z",
+          "lead_time": 98.933,
+          "import_id": null,
+          "last_action": null,
+          "task": 6485,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2813,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 14,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:20:32.047247Z",
+      "annotations_results": "[{value: {start: 59, end: 71, text: Karin Kuster, labels: [Person]}, id: WFv5VW0yhP, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 116, end: 127, text: Evelyne Leu, labels: [Person]}, id: tBuYSOr-g2, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 6, end: 12, text: skiers, labels: [Person]}, id: msGXoxazik, from_name: label, to_name: text",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 59, end: 64, text: Karin, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 65, end: 71, text: Kuster, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 124, end: 127, text: Leu, labels: [Person]}}] [{from_name: label, to_name: text, type: labels, value: {end: 64, labels: [",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "477",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 98.933,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "Swiss skiers occupied the other two places on the podium , Karin Kuster taking second with 160.55 narrowly ahead of Evelyne Leu with 160.36 ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:20:32.150313Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6486,
+      "predictions": [
+        {
+          "id": 2796,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.585238Z",
+          "updated_at": "2024-04-06T19:20:35.078256Z",
+          "task": 6486,
+          "project": 5
+        },
+        {
+          "id": 2814,
+          "model_version": "INITIAL",
+          "created_ago": "6\u00a0minutes",
+          "result": [],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:20:34.323339Z",
+          "updated_at": "2024-04-06T19:20:34.323339Z",
+          "task": 6486,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 478,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "5\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 13,
+                "end": 22,
+                "text": "World Cup",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "h9Ce58Lx9O",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:20:48.156291Z",
+          "updated_at": "2024-04-06T19:20:48.156291Z",
+          "draft_created_at": "2024-04-06T19:20:44.489277Z",
+          "lead_time": 13.718,
+          "import_id": null,
+          "last_action": null,
+          "task": 6486,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2814,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 15,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:20:48.156291Z",
+      "annotations_results": "[{value: {start: 13, end: 22, text: World Cup, labels: [Organization]}, id: h9Ce58Lx9O, from_name: label, to_name: text, type: labels, origin: manual}] [{value: {start: 13, end: 22, text: World Cup, labels: [Organization]}, id: h9Ce58Lx9O, from_name: label, to_name: text, type: labels, origin: manual}]",
+      "predictions_results": "[] []",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "478",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 13.718,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "Results of a World Cup two-man bobsleigh event on Saturday :"
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:20:48.308266Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6487,
+      "predictions": [
+        {
+          "id": 2797,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 10,
+                "end": 17,
+                "text": "WOOLMER",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 18,
+                "end": 23,
+                "text": "MAKES",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 36,
+                "end": 42,
+                "text": "RETURN",
+                "labels": [
+                  "Location"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.630118Z",
+          "updated_at": "2024-04-06T19:20:51.996488Z",
+          "task": 6487,
+          "project": 5
+        },
+        {
+          "id": 2815,
+          "model_version": "INITIAL",
+          "created_ago": "5\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 17,
+                "labels": [
+                  "Person"
+                ],
+                "start": 10,
+                "text": "WOOLMER"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 23,
+                "labels": [
+                  "Person"
+                ],
+                "start": 18,
+                "text": "MAKES"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 42,
+                "labels": [
+                  "Location"
+                ],
+                "start": 36,
+                "text": "RETURN"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:20:50.506711Z",
+          "updated_at": "2024-04-06T19:20:50.506711Z",
+          "task": 6487,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 479,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "5\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 10,
+                "end": 17,
+                "text": "WOOLMER",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "yEYh1Xjc2M",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 46,
+                "end": 52,
+                "text": "KANPUR",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "oVgSxK2_LX",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:21:10.131116Z",
+          "updated_at": "2024-04-06T19:21:10.131116Z",
+          "draft_created_at": "2024-04-06T19:20:59.857306Z",
+          "lead_time": 19.525,
+          "import_id": null,
+          "last_action": null,
+          "task": 6487,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2815,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 16,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:21:10.131116Z",
+      "annotations_results": "[{value: {start: 10, end: 17, text: WOOLMER, labels: [Person]}, id: yEYh1Xjc2M, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 46, end: 52, text: KANPUR, labels: [Location]}, id: oVgSxK2_LX, from_name: label, to_name: text, type: labels, origin: manual}] [{value: {start: 10, end: 17, text: WOOLMER, labels: [Person]}, id: yEYh1Xjc2M, from_name: label, to_name: text, ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 10, end: 17, text: WOOLMER, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 18, end: 23, text: MAKES, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 36, end: 42, text: RETURN, labels: [Location]}}] [{from_name: label, to_name: text, type: labels, value: {end: 17, labels",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "479",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 19.525,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "CRICKET - WOOLMER MAKES SENTIMENTAL RETURN TO KANPUR ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:21:10.276031Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6488,
+      "predictions": [
+        {
+          "id": 2798,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "South",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 6,
+                "end": 12,
+                "text": "Africa",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 24,
+                "end": 30,
+                "text": "Kanpur",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 58,
+                "end": 63,
+                "text": "India",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 81,
+                "end": 88,
+                "text": "England",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 104,
+                "end": 107,
+                "text": "Bob",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 108,
+                "end": 115,
+                "text": "Woolmer",
+                "labels": [
+                  "Person"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.677358Z",
+          "updated_at": "2024-04-06T19:21:13.155248Z",
+          "task": 6488,
+          "project": 5
+        },
+        {
+          "id": 2816,
+          "model_version": "INITIAL",
+          "created_ago": "5\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "South"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 12,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 6,
+                "text": "Africa"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 30,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 24,
+                "text": "Kanpur"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 63,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 58,
+                "text": "India"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 88,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 81,
+                "text": "England"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 107,
+                "labels": [
+                  "Person"
+                ],
+                "start": 104,
+                "text": "Bob"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 115,
+                "labels": [
+                  "Person"
+                ],
+                "start": 108,
+                "text": "Woolmer"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:21:12.493840Z",
+          "updated_at": "2024-04-06T19:21:12.493840Z",
+          "task": 6488,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 480,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "4\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 24,
+                "end": 30,
+                "text": "Kanpur",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "JFpKjWTNJf",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 58,
+                "end": 63,
+                "text": "India",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "PK5aJTopi3",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 81,
+                "end": 88,
+                "text": "England",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "zFvoSAR-be",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 12,
+                "text": "South Africa",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "k8-icJFpfV",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 104,
+                "end": 115,
+                "text": "Bob Woolmer",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "LTfhD8jIHb",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 154,
+                "end": 168,
+                "text": "his birthplace",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "opVs3Mkfia",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:22:10.832183Z",
+          "updated_at": "2024-04-06T19:22:10.832183Z",
+          "draft_created_at": "2024-04-06T19:21:21.551319Z",
+          "lead_time": 58.231,
+          "import_id": null,
+          "last_action": null,
+          "task": 6488,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2816,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 17,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:22:10.832183Z",
+      "annotations_results": "[{value: {start: 24, end: 30, text: Kanpur, labels: [Location]}, id: JFpKjWTNJf, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 58, end: 63, text: India, labels: [Location]}, id: PK5aJTopi3, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 81, end: 88, text: England, labels: [Location]}, id: zFvoSAR-be, from_name: label,",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: South, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 6, end: 12, text: Africa, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 24, end: 30, text: Kanpur, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "480",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 58.231,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "South Africa 's trip to Kanpur for the third test against India has given former England test cricketer Bob Woolmer the chance of a sentimental return to his birthplace ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:22:10.956244Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6489,
+      "predictions": [
+        {
+          "id": 2799,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 41,
+                "end": 47,
+                "text": "Kanpur",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.719246Z",
+          "updated_at": "2024-04-06T19:22:13.847322Z",
+          "task": 6489,
+          "project": 5
+        },
+        {
+          "id": 2817,
+          "model_version": "INITIAL",
+          "created_ago": "4\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 47,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 41,
+                "text": "Kanpur"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:22:13.208143Z",
+          "updated_at": "2024-04-06T19:22:13.208143Z",
+          "task": 6489,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 481,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "3\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 41,
+                "end": 47,
+                "text": "Kanpur",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "ofkDAUNS85",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 7,
+                "text": "Woolmer",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "1GWPassFDf",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 53,
+                "end": 63,
+                "text": "his father",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "j1nHVuW1pB",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 81,
+                "end": 101,
+                "text": "an insurance compnay",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "1kf3sv5hGc",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:23:10.075144Z",
+          "updated_at": "2024-04-06T19:23:10.075144Z",
+          "draft_created_at": "2024-04-06T19:22:22.438271Z",
+          "lead_time": 56.753,
+          "import_id": null,
+          "last_action": null,
+          "task": 6489,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2817,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 18,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:23:10.075144Z",
+      "annotations_results": "[{value: {start: 41, end: 47, text: Kanpur, labels: [Location]}, id: ofkDAUNS85, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 0, end: 7, text: Woolmer, labels: [Person]}, id: 1GWPassFDf, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 53, end: 63, text: his father, labels: [Person]}, id: j1nHVuW1pB, from_name: label, to_name: ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 41, end: 47, text: Kanpur, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 47, labels: [Organization], start: 41, text: Kanpur}}]",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "481",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 56.753,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "Woolmer was born in the northern city of Kanpur when his father worked there for an insurance compnay and was himself an active cricketer ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:23:10.209985Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6490,
+      "predictions": [
+        {
+          "id": 2800,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 11,
+                "end": 16,
+                "text": "India",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 30,
+                "end": 40,
+                "text": "intriguing",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 56,
+                "end": 63,
+                "text": "Woolmer",
+                "labels": [
+                  "Person"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.767118Z",
+          "updated_at": "2024-04-06T19:23:13.225237Z",
+          "task": 6490,
+          "project": 5
+        },
+        {
+          "id": 2818,
+          "model_version": "INITIAL",
+          "created_ago": "3\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 16,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 11,
+                "text": "India"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 40,
+                "labels": [
+                  "Location"
+                ],
+                "start": 30,
+                "text": "intriguing"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 63,
+                "labels": [
+                  "Person"
+                ],
+                "start": 56,
+                "text": "Woolmer"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:23:12.443212Z",
+          "updated_at": "2024-04-06T19:23:12.443212Z",
+          "task": 6490,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 482,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "2\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 11,
+                "end": 16,
+                "text": "India",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "Znvj22LT7u",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 56,
+                "end": 63,
+                "text": "Woolmer",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "SZnbJzMUQb",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 74,
+                "end": 87,
+                "text": "South African",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "3sSxQff-gM",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 88,
+                "end": 93,
+                "text": "coach",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "ZHqxJf8Lp6",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:24:06.180064Z",
+          "updated_at": "2024-04-06T19:24:06.180064Z",
+          "draft_created_at": "2024-04-06T19:23:19.975223Z",
+          "lead_time": 53.621,
+          "import_id": null,
+          "last_action": null,
+          "task": 6490,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2818,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 19,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:24:06.180064Z",
+      "annotations_results": "[{value: {start: 11, end: 16, text: India, labels: [Location]}, id: Znvj22LT7u, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 56, end: 63, text: Woolmer, labels: [Person]}, id: SZnbJzMUQb, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 74, end: 87, text: South African, labels: [Location]}, id: 3sSxQff-gM, from_name: label, t",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 11, end: 16, text: India, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 30, end: 40, text: intriguing, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 56, end: 63, text: Woolmer, labels: [Person]}}] [{from_name: label, to_name: text, type: labels, value: {end: 1",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "482",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 53.621,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "A visit to India is always an intriguing experience , \" Woolmer , now the South African coach , said on Saturday ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:24:06.349986Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    },
+    {
+      "id": 6491,
+      "predictions": [
+        {
+          "id": 2801,
+          "model_version": "CLaSP_v1",
+          "created_ago": "1\u00a0hour, 29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 14,
+                "end": 21,
+                "text": "Woolmer",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 51,
+                "end": 55,
+                "text": "Cape",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 56,
+                "end": 60,
+                "text": "Town",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T17:56:43.860868Z",
+          "updated_at": "2024-04-06T19:24:09.339557Z",
+          "task": 6491,
+          "project": 5
+        },
+        {
+          "id": 2819,
+          "model_version": "INITIAL",
+          "created_ago": "2\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 21,
+                "labels": [
+                  "Person"
+                ],
+                "start": 14,
+                "text": "Woolmer"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 55,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 51,
+                "text": "Cape"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 60,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 56,
+                "text": "Town"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-06T19:24:08.664202Z",
+          "updated_at": "2024-04-06T19:24:08.664202Z",
+          "task": 6491,
+          "project": 5
+        }
+      ],
+      "annotations": [
+        {
+          "id": 483,
+          "created_username": " lhw2837@rit.edu, 7",
+          "created_ago": "2\u00a0minutes",
+          "completed_by": 7,
+          "result": [
+            {
+              "value": {
+                "start": 14,
+                "end": 21,
+                "text": "Woolmer",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "1IMo_vS2ki",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 51,
+                "end": 60,
+                "text": "Cape Town",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "wyFczzGsr0",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-06T19:24:23.138054Z",
+          "updated_at": "2024-04-06T19:24:23.138054Z",
+          "draft_created_at": "2024-04-06T19:24:18.969177Z",
+          "lead_time": 14.367,
+          "import_id": null,
+          "last_action": null,
+          "task": 6491,
+          "project": 5,
+          "updated_by": 7,
+          "parent_prediction": 2819,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        7
+      ],
+      "inner_id": 20,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-06T19:24:23.138054Z",
+      "annotations_results": "[{value: {start: 14, end: 21, text: Woolmer, labels: [Person]}, id: 1IMo_vS2ki, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 51, end: 60, text: Cape Town, labels: [Location]}, id: wyFczzGsr0, from_name: label, to_name: text, type: labels, origin: manual}] [{value: {start: 14, end: 21, text: Woolmer, labels: [Person]}, id: 1IMo_vS2ki, from_name: label, to_name: text",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 14, end: 21, text: Woolmer, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 51, end: 55, text: Cape, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 56, end: 60, text: Town, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 21, ",
+      "predictions_score": null,
+      "file_upload": "f06b79d1-pair_con.json",
+      "storage_filename": null,
+      "annotations_ids": "483",
+      "predictions_model_versions": "CLaSP_v1,INITIAL",
+      "avg_lead_time": 14.367,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 7
+        }
+      ],
+      "data": {
+        "text": "Now aged 86 , Woolmer senior lives with his son in Cape Town ."
+      },
+      "meta": {},
+      "created_at": "2024-04-06T17:55:42.260090Z",
+      "updated_at": "2024-04-06T19:24:23.267707Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 5,
+      "comment_authors": []
+    }
+  ]
+}

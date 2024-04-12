@@ -75,6 +75,7 @@ if __name__ == "__main__":
         all_projects = [projectID_SOLO, projectID_SOLO_CON, projectID_PAIR, projectID_PAIR_CON]
         for project in all_projects:
             main(project,  projects[project], participant_id)
+        init_model.move_model(projects[project], participant_id)
         init_model.reset_model()
     else:
         reset_project = int(input("Which project do you want to reset? (1: Demo, 2: Solo, 3: Solo_con, 4: Pair, 5: Pair_con): "))

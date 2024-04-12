@@ -1,0 +1,3975 @@
+{
+  "total_annotations": 20,
+  "total_predictions": 38,
+  "total": 20,
+  "tasks": [
+    {
+      "id": 6372,
+      "predictions": [
+        {
+          "id": 2722,
+          "model_version": "INITIAL",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 6,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "SOCCER"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 14,
+                "labels": [
+                  "Person"
+                ],
+                "start": 9,
+                "text": "JAPAN"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 36,
+                "labels": [
+                  "Person"
+                ],
+                "start": 31,
+                "text": "CHINA"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.002763Z",
+          "updated_at": "2024-04-05T17:21:11.002763Z",
+          "task": 6372,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 444,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "9\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 9,
+                "end": 14,
+                "text": "JAPAN",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "hbQPLkADtN",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 31,
+                "end": 36,
+                "text": "CHINA",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "S2_-wlmVn1",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:41:14.739802Z",
+          "updated_at": "2024-04-05T17:41:14.739802Z",
+          "draft_created_at": null,
+          "lead_time": 9.63,
+          "import_id": null,
+          "last_action": null,
+          "task": 6372,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2722,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 1,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 1,
+      "completed_at": "2024-04-05T17:41:14.739802Z",
+      "annotations_results": "[{value: {start: 9, end: 14, text: JAPAN, labels: [Organization]}, id: hbQPLkADtN, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 31, end: 36, text: CHINA, labels: [Organization]}, id: S2_-wlmVn1, from_name: label, to_name: text, type: labels, origin: prediction-changed}]",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {end: 6, labels: [Person], start: 0, text: SOCCER}}, {from_name: label, to_name: text, type: labels, value: {end: 14, labels: [Person], start: 9, text: JAPAN}}, {from_name: label, to_name: text, type: labels, value: {end: 36, labels: [Person], start: 31, text: CHINA}}]",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "444",
+      "predictions_model_versions": "INITIAL",
+      "avg_lead_time": 9.63,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "SOCCER - JAPAN GET LUCKY WIN , CHINA IN SURPRISE DEFEAT ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.886930Z",
+      "updated_at": "2024-04-05T17:41:14.818592Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6373,
+      "predictions": [
+        {
+          "id": 2723,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Japan",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 78,
+                "end": 83,
+                "text": "Syria",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 89,
+                "end": 94,
+                "text": "Group",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.077775Z",
+          "updated_at": "2024-04-05T17:41:19.651052Z",
+          "task": 6373,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 445,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "8\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Japan",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "SRu48hrArT",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 78,
+                "end": 83,
+                "text": "Syria",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "jwyjjk1nWQ",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 89,
+                "end": 94,
+                "text": "Group",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "k2PIvcQIaI",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 33,
+                "end": 42,
+                "text": "Asian Cup",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "vdEydFtqSm",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:41:33.759773Z",
+          "updated_at": "2024-04-05T17:41:33.759773Z",
+          "draft_created_at": null,
+          "lead_time": 15.097,
+          "import_id": null,
+          "last_action": null,
+          "task": 6373,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2723,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 2,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 1,
+      "completed_at": "2024-04-05T17:41:33.759773Z",
+      "annotations_results": "[{value: {start: 0, end: 5, text: Japan, labels: [Organization]}, id: SRu48hrArT, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 78, end: 83, text: Syria, labels: [Organization]}, id: jwyjjk1nWQ, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 89, end: 94, text: Group, labels: [Organization]}, id: k2PIvcQIaI, from_name: label, to_name",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: Japan, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 78, end: 83, text: Syria, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 89, end: 94, text: Group, labels: [Organization]}}]",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "445",
+      "predictions_model_versions": "CLaSP_v1",
+      "avg_lead_time": 15.097,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Japan began the defence of their Asian Cup title with a lucky 2-1 win against Syria in a Group C championship match on Friday ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.886930Z",
+      "updated_at": "2024-04-05T17:41:33.901840Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6374,
+      "predictions": [
+        {
+          "id": 2724,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 4,
+                "end": 9,
+                "text": "China",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.138967Z",
+          "updated_at": "2024-04-05T17:41:38.200573Z",
+          "task": 6374,
+          "project": 2
+        },
+        {
+          "id": 2764,
+          "model_version": "INITIAL",
+          "created_ago": "8\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 9,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 4,
+                "text": "China"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:41:37.563986Z",
+          "updated_at": "2024-04-05T17:41:37.563986Z",
+          "task": 6374,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 446,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "8\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 4,
+                "end": 9,
+                "text": "China",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "PQ_0JrNVwb",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 119,
+                "end": 129,
+                "text": "Uzbekistan",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "I3jsFFFka2",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:41:47.955851Z",
+          "updated_at": "2024-04-05T17:41:47.955851Z",
+          "draft_created_at": null,
+          "lead_time": 9.709,
+          "import_id": null,
+          "last_action": null,
+          "task": 6374,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2764,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 3,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:41:47.955851Z",
+      "annotations_results": "[{value: {start: 4, end: 9, text: China, labels: [Organization]}, id: PQ_0JrNVwb, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 119, end: 129, text: Uzbekistan, labels: [Organization]}, id: I3jsFFFka2, from_name: label, to_name: text, type: labels, origin: manual}] [{value: {start: 4, end: 9, text: China, labels: [Organization]}, id: PQ_0JrNVwb, from_name: label, to_na",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 4, end: 9, text: China, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 9, labels: [Organization], start: 4, text: China}}]",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "446",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 9.709,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "But China saw their luck desert them in the second match of the group , crashing to a surprise 2-0 defeat to newcomers Uzbekistan ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.886930Z",
+      "updated_at": "2024-04-05T17:41:48.049728Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6375,
+      "predictions": [
+        {
+          "id": 2725,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "China",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 93,
+                "end": 98,
+                "text": "Uzbek",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 107,
+                "end": 111,
+                "text": "Igor",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 112,
+                "end": 120,
+                "text": "Shkvyrin",
+                "labels": [
+                  "Location"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.185841Z",
+          "updated_at": "2024-04-05T17:41:52.443581Z",
+          "task": 6375,
+          "project": 2
+        },
+        {
+          "id": 2765,
+          "model_version": "INITIAL",
+          "created_ago": "8\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "China"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 98,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 93,
+                "text": "Uzbek"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 111,
+                "labels": [
+                  "Location"
+                ],
+                "start": 107,
+                "text": "Igor"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 120,
+                "labels": [
+                  "Location"
+                ],
+                "start": 112,
+                "text": "Shkvyrin"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:41:51.790841Z",
+          "updated_at": "2024-04-05T17:41:51.790841Z",
+          "task": 6375,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 447,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "8\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "China",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "SRYZq5aSYD",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 93,
+                "end": 98,
+                "text": "Uzbek",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "J0kuPRR_s4",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 107,
+                "end": 111,
+                "text": "Igor",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "83LzAQERWJ",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 112,
+                "end": 120,
+                "text": "Shkvyrin",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "GoVohWb7Gh",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 205,
+                "end": 212,
+                "text": "Chinese",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "f01MZvRm-b",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:42:11.170725Z",
+          "updated_at": "2024-04-05T17:42:11.170725Z",
+          "draft_created_at": "2024-04-05T17:42:06.941885Z",
+          "lead_time": 18.66,
+          "import_id": null,
+          "last_action": null,
+          "task": 6375,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2765,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 4,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:42:11.170725Z",
+      "annotations_results": "[{value: {start: 0, end: 5, text: China, labels: [Organization]}, id: SRYZq5aSYD, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 93, end: 98, text: Uzbek, labels: [Organization]}, id: J0kuPRR_s4, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 107, end: 111, text: Igor, labels: [Location]}, id: 83LzAQERWJ, from_name: label, to_name: ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: China, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 93, end: 98, text: Uzbek, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 107, end: 111, text: Igor, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 11",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "447",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 18.66,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "China controlled most of the match and saw several chances missed until the 78th minute when Uzbek striker Igor Shkvyrin took advantage of a misdirected defensive header to lob the ball over the advancing Chinese keeper and into an empty net ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.886930Z",
+      "updated_at": "2024-04-05T17:42:11.275446Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6376,
+      "predictions": [
+        {
+          "id": 2726,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 4,
+                "text": "Oleg",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 5,
+                "end": 14,
+                "text": "Shatskiku",
+                "labels": [
+                  "Location"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.227421Z",
+          "updated_at": "2024-04-05T17:42:15.485284Z",
+          "task": 6376,
+          "project": 2
+        },
+        {
+          "id": 2766,
+          "model_version": "INITIAL",
+          "created_ago": "8\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 4,
+                "labels": [
+                  "Location"
+                ],
+                "start": 0,
+                "text": "Oleg"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 14,
+                "labels": [
+                  "Location"
+                ],
+                "start": 5,
+                "text": "Shatskiku"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:42:14.915803Z",
+          "updated_at": "2024-04-05T17:42:14.915803Z",
+          "task": 6376,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 448,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "7\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 4,
+                "text": "Oleg",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "yhPqo73okb",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 5,
+                "end": 14,
+                "text": "Shatskiku",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "CHp8HMAunS",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 101,
+                "end": 117,
+                "text": "outside the area",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "DFV8WVTdAR",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:42:29.764763Z",
+          "updated_at": "2024-04-05T17:42:29.764763Z",
+          "draft_created_at": "2024-04-05T17:42:23.500712Z",
+          "lead_time": 14.173,
+          "import_id": null,
+          "last_action": null,
+          "task": 6376,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2766,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 5,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:42:29.764763Z",
+      "annotations_results": "[{value: {start: 0, end: 4, text: Oleg, labels: [Person]}, id: yhPqo73okb, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 5, end: 14, text: Shatskiku, labels: [Person]}, id: CHp8HMAunS, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 101, end: 117, text: outside the area, labels: [Location]}, id: DFV8WVTdAR, from_name: l",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 4, text: Oleg, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 5, end: 14, text: Shatskiku, labels: [Location]}}] [{from_name: label, to_name: text, type: labels, value: {end: 4, labels: [Location], start: 0, text: Oleg}}, {from_name: label, to_name: text, type: labels, value: {end: 14, labels:",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "448",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 14.173,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Oleg Shatskiku made sure of the win in injury time , hitting an unstoppable left foot shot from just outside the area ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.886930Z",
+      "updated_at": "2024-04-05T17:42:29.881778Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6377,
+      "predictions": [
+        {
+          "id": 2727,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.267729Z",
+          "updated_at": "2024-04-05T17:42:34.199694Z",
+          "task": 6377,
+          "project": 2
+        },
+        {
+          "id": 2767,
+          "model_version": "INITIAL",
+          "created_ago": "7\u00a0minutes",
+          "result": [],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:42:33.565961Z",
+          "updated_at": "2024-04-05T17:42:33.565961Z",
+          "task": 6377,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 449,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "7\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 11,
+                "end": 26,
+                "text": "Soviet republic",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "YHWytCVY4P",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 45,
+                "end": 61,
+                "text": "Asian Cup finals",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "8QfHyWasa-",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:42:58.839704Z",
+          "updated_at": "2024-04-05T17:42:58.839704Z",
+          "draft_created_at": null,
+          "lead_time": 24.519,
+          "import_id": null,
+          "last_action": null,
+          "task": 6377,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2767,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 6,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:42:58.839704Z",
+      "annotations_results": "[{value: {start: 11, end: 26, text: Soviet republic, labels: [Organization]}, id: YHWytCVY4P, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 45, end: 61, text: Asian Cup finals, labels: [Organization]}, id: 8QfHyWasa-, from_name: label, to_name: text, type: labels, origin: manual}] [{value: {start: 11, end: 26, text: Soviet republic, labels: [Organization]}, id: YHWytCVY4P, fro",
+      "predictions_results": "[] []",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "449",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 24.519,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "The former Soviet republic was playing in an Asian Cup finals tie for the first time ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:42:58.974168Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6378,
+      "predictions": [
+        {
+          "id": 2728,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.306962Z",
+          "updated_at": "2024-04-05T17:43:03.117632Z",
+          "task": 6378,
+          "project": 2
+        },
+        {
+          "id": 2768,
+          "model_version": "INITIAL",
+          "created_ago": "7\u00a0minutes",
+          "result": [],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:43:02.698963Z",
+          "updated_at": "2024-04-05T17:43:02.698963Z",
+          "task": 6378,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 450,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "6\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 20,
+                "end": 31,
+                "text": "Asian Games",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "J1pEiRg5wn",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 54,
+                "end": 64,
+                "text": "Uzbekistan",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "4HsS6hbyWF",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:43:23.112747Z",
+          "updated_at": "2024-04-05T17:43:23.112747Z",
+          "draft_created_at": null,
+          "lead_time": 19.385,
+          "import_id": null,
+          "last_action": null,
+          "task": 6378,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2768,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 7,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:43:23.112747Z",
+      "annotations_results": "[{value: {start: 20, end: 31, text: Asian Games, labels: [Organization]}, id: J1pEiRg5wn, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 54, end: 64, text: Uzbekistan, labels: [Organization]}, id: 4HsS6hbyWF, from_name: label, to_name: text, type: labels, origin: manual}] [{value: {start: 20, end: 31, text: Asian Games, labels: [Organization]}, id: J1pEiRg5wn, from_name: labe",
+      "predictions_results": "[] []",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "450",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 19.385,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Despite winning the Asian Games title two years ago , Uzbekistan are in the finals as outsiders ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:43:23.234398Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6379,
+      "predictions": [
+        {
+          "id": 2729,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 64,
+                "end": 69,
+                "text": "Japan",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 154,
+                "end": 159,
+                "text": "Syria",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.350112Z",
+          "updated_at": "2024-04-05T17:43:27.420775Z",
+          "task": 6379,
+          "project": 2
+        },
+        {
+          "id": 2769,
+          "model_version": "INITIAL",
+          "created_ago": "6\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 69,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 64,
+                "text": "Japan"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 159,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 154,
+                "text": "Syria"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:43:26.901888Z",
+          "updated_at": "2024-04-05T17:43:26.901888Z",
+          "task": 6379,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 451,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "6\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 64,
+                "end": 69,
+                "text": "Japan",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "ZyUVlNzkun",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 154,
+                "end": 159,
+                "text": "Syria",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "BiZlrDh1C5",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:43:42.623722Z",
+          "updated_at": "2024-04-05T17:43:42.623722Z",
+          "draft_created_at": null,
+          "lead_time": 15.053,
+          "import_id": null,
+          "last_action": null,
+          "task": 6379,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2769,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 8,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:43:42.623722Z",
+      "annotations_results": "[{value: {start: 64, end: 69, text: Japan, labels: [Organization]}, id: ZyUVlNzkun, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 154, end: 159, text: Syria, labels: [Organization]}, id: BiZlrDh1C5, from_name: label, to_name: text, type: labels, origin: prediction}] [{value: {start: 64, end: 69, text: Japan, labels: [Organization]}, id: ZyUVlNzkun, from_name: label, to",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 64, end: 69, text: Japan, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 154, end: 159, text: Syria, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 69, labels: [Organization], start: 64, text: Japan}}, {from_name: label, to_name: text, type: labels, value: {en",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "451",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 15.053,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Two goals from defensive errors in the last six minutes allowed Japan to come from behind and collect all three points from their opening meeting against Syria ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:43:42.783845Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6380,
+      "predictions": [
+        {
+          "id": 2730,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 6,
+                "text": "Takuya",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 7,
+                "end": 13,
+                "text": "Takagi",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 70,
+                "end": 79,
+                "text": "Hiroshige",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 80,
+                "end": 90,
+                "text": "Yanagimoto",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 138,
+                "end": 143,
+                "text": "Salem",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 144,
+                "end": 149,
+                "text": "Bitar",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.425731Z",
+          "updated_at": "2024-04-05T17:43:47.072922Z",
+          "task": 6380,
+          "project": 2
+        },
+        {
+          "id": 2770,
+          "model_version": "INITIAL",
+          "created_ago": "6\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 6,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Takuya"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 13,
+                "labels": [
+                  "Person"
+                ],
+                "start": 7,
+                "text": "Takagi"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 79,
+                "labels": [
+                  "Person"
+                ],
+                "start": 70,
+                "text": "Hiroshige"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 90,
+                "labels": [
+                  "Person"
+                ],
+                "start": 80,
+                "text": "Yanagimoto"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 143,
+                "labels": [
+                  "Person"
+                ],
+                "start": 138,
+                "text": "Salem"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 149,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 144,
+                "text": "Bitar"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:43:46.648461Z",
+          "updated_at": "2024-04-05T17:43:46.648461Z",
+          "task": 6380,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 452,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "6\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 6,
+                "text": "Takuya",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "jjU7AIjQsn",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 7,
+                "end": 13,
+                "text": "Takagi",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "XOiDJKM1Ta",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 70,
+                "end": 79,
+                "text": "Hiroshige",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "GHB71RwpGw",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 80,
+                "end": 90,
+                "text": "Yanagimoto",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "pKhWJkHwdP",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 138,
+                "end": 143,
+                "text": "Salem",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "V3JKLjLw7d",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 144,
+                "end": 149,
+                "text": "Bitar",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "SOjJLVIiI3",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 109,
+                "end": 115,
+                "text": "Syrian",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "5H5NN66HiS",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:43:58.103789Z",
+          "updated_at": "2024-04-05T17:44:18.042963Z",
+          "draft_created_at": null,
+          "lead_time": 22.339,
+          "import_id": null,
+          "last_action": null,
+          "task": 6380,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2770,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 9,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:43:58.103789Z",
+      "annotations_results": "[{value: {start: 0, end: 6, text: Takuya, labels: [Person]}, id: jjU7AIjQsn, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 7, end: 13, text: Takagi, labels: [Person]}, id: XOiDJKM1Ta, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 70, end: 79, text: Hiroshige, labels: [Person]}, id: GHB71RwpGw, from_name: label, to_name: text, t",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 6, text: Takuya, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 7, end: 13, text: Takagi, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 70, end: 79, text: Hiroshige, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 80, end: 9",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "452",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 22.339,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Takuya Takagi scored the winner in the 88th minute , rising to head a Hiroshige Yanagimoto cross towards the Syrian goal which goalkeeper Salem Bitar appeared to have covered but then allowed to slip into the net ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:44:18.202898Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6381,
+      "predictions": [
+        {
+          "id": 2731,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 36,
+                "end": 41,
+                "text": "Syria",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.467672Z",
+          "updated_at": "2024-04-05T17:44:22.268914Z",
+          "task": 6381,
+          "project": 2
+        },
+        {
+          "id": 2771,
+          "model_version": "INITIAL",
+          "created_ago": "6\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 41,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 36,
+                "text": "Syria"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:44:01.900874Z",
+          "updated_at": "2024-04-05T17:44:01.900874Z",
+          "task": 6381,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 453,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "5\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 36,
+                "end": 41,
+                "text": "Syria",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "JcjOf5YJoy",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:44:30.809692Z",
+          "updated_at": "2024-04-05T17:44:30.809692Z",
+          "draft_created_at": null,
+          "lead_time": 7.819,
+          "import_id": null,
+          "last_action": null,
+          "task": 6381,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2771,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 10,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:44:30.809692Z",
+      "annotations_results": "[{value: {start: 36, end: 41, text: Syria, labels: [Organization]}, id: JcjOf5YJoy, from_name: label, to_name: text, type: labels, origin: prediction}] [{value: {start: 36, end: 41, text: Syria, labels: [Organization]}, id: JcjOf5YJoy, from_name: label, to_name: text, type: labels, origin: prediction}]",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 36, end: 41, text: Syria, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 41, labels: [Organization], start: 36, text: Syria}}]",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "453",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 7.819,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "It was the second costly blunder by Syria in four minutes ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:44:30.957365Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6382,
+      "predictions": [
+        {
+          "id": 2732,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 8,
+                "text": "Defender",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 9,
+                "end": 15,
+                "text": "Hassan",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 16,
+                "end": 21,
+                "text": "Abbas",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 138,
+                "end": 143,
+                "text": "Bitar",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.509991Z",
+          "updated_at": "2024-04-05T17:44:35.083707Z",
+          "task": 6382,
+          "project": 2
+        },
+        {
+          "id": 2772,
+          "model_version": "INITIAL",
+          "created_ago": "5\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 8,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Defender"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 15,
+                "labels": [
+                  "Person"
+                ],
+                "start": 9,
+                "text": "Hassan"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 21,
+                "labels": [
+                  "Person"
+                ],
+                "start": 16,
+                "text": "Abbas"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 143,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 138,
+                "text": "Bitar"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:44:34.541826Z",
+          "updated_at": "2024-04-05T17:44:34.541826Z",
+          "task": 6382,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 454,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "5\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 9,
+                "end": 15,
+                "text": "Hassan",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "31Rqy3mwLw",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 16,
+                "end": 21,
+                "text": "Abbas",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "XHItaGnW1e",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 138,
+                "end": 143,
+                "text": "Bitar",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "8HgCsVkODR",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 124,
+                "end": 134,
+                "text": "top corner",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "mBFtdwpE5I",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:44:59.611689Z",
+          "updated_at": "2024-04-05T17:44:59.611689Z",
+          "draft_created_at": "2024-04-05T17:44:43.030756Z",
+          "lead_time": 24.439,
+          "import_id": null,
+          "last_action": null,
+          "task": 6382,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2772,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 11,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:44:59.611689Z",
+      "annotations_results": "[{value: {start: 9, end: 15, text: Hassan, labels: [Person]}, id: 31Rqy3mwLw, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 16, end: 21, text: Abbas, labels: [Person]}, id: XHItaGnW1e, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 138, end: 143, text: Bitar, labels: [Person]}, id: 8HgCsVkODR, from_name: label, to_name: text, ty",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 8, text: Defender, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 9, end: 15, text: Hassan, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 16, end: 21, text: Abbas, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 138, end: 14",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "454",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 24.439,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Defender Hassan Abbas rose to intercept a long ball into the area in the 84th minute but only managed to divert it into the top corner of Bitar 's goal ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:44:59.795904Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6383,
+      "predictions": [
+        {
+          "id": 2733,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Nader",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 6,
+                "end": 14,
+                "text": "Jokhadar",
+                "labels": [
+                  "Location"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 25,
+                "end": 30,
+                "text": "Syria",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.549338Z",
+          "updated_at": "2024-04-05T17:45:04.109323Z",
+          "task": 6383,
+          "project": 2
+        },
+        {
+          "id": 2773,
+          "model_version": "INITIAL",
+          "created_ago": "5\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Location"
+                ],
+                "start": 0,
+                "text": "Nader"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 14,
+                "labels": [
+                  "Location"
+                ],
+                "start": 6,
+                "text": "Jokhadar"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 30,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 25,
+                "text": "Syria"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:45:03.405447Z",
+          "updated_at": "2024-04-05T17:45:03.405447Z",
+          "task": 6383,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 455,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "5\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Nader",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "J2QSvROM-B",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 6,
+                "end": 14,
+                "text": "Jokhadar",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "Q_-DDf54q3",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 25,
+                "end": 30,
+                "text": "Syria",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "rz1-b0Ozy5",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:45:07.272657Z",
+          "updated_at": "2024-04-05T17:45:07.272657Z",
+          "draft_created_at": null,
+          "lead_time": 3.198,
+          "import_id": null,
+          "last_action": null,
+          "task": 6383,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2773,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 12,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:45:07.272657Z",
+      "annotations_results": "[{value: {start: 0, end: 5, text: Nader, labels: [Location]}, id: J2QSvROM-B, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 6, end: 14, text: Jokhadar, labels: [Location]}, id: Q_-DDf54q3, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 25, end: 30, text: Syria, labels: [Organization]}, id: rz1-b0Ozy5, from_name: label, to_name: te",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: Nader, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 6, end: 14, text: Jokhadar, labels: [Location]}}, {from_name: label, to_name: text, type: labels, value: {start: 25, end: 30, text: Syria, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 5, la",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "455",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 3.198,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Nader Jokhadar had given Syria the lead with a well-struck header in the seventh minute ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:45:07.435531Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6384,
+      "predictions": [
+        {
+          "id": 2734,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Japan",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.590677Z",
+          "updated_at": "2024-04-05T17:45:11.720259Z",
+          "task": 6384,
+          "project": 2
+        },
+        {
+          "id": 2774,
+          "model_version": "INITIAL",
+          "created_ago": "5\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "Japan"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:45:10.982246Z",
+          "updated_at": "2024-04-05T17:45:10.982246Z",
+          "task": 6384,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 456,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "4\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Japan",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "ntZOgDxVHw",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 29,
+                "end": 35,
+                "text": "Syrian",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "sGnJngwGb0",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 36,
+                "end": 48,
+                "text": "penalty area",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "Yrk2EUcpJE",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 94,
+                "end": 100,
+                "text": "Syrian",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "_1Rp9Glww_",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:45:32.857057Z",
+          "updated_at": "2024-04-05T17:45:32.857057Z",
+          "draft_created_at": "2024-04-05T17:45:21.448878Z",
+          "lead_time": 21.272,
+          "import_id": null,
+          "last_action": null,
+          "task": 6384,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2774,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 13,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:45:32.857057Z",
+      "annotations_results": "[{value: {start: 0, end: 5, text: Japan, labels: [Organization]}, id: ntZOgDxVHw, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 29, end: 35, text: Syrian, labels: [Organization]}, id: sGnJngwGb0, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 36, end: 48, text: penalty area, labels: [Location]}, id: Yrk2EUcpJE, from_name: label, to_name",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: Japan, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 5, labels: [Organization], start: 0, text: Japan}}]",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "456",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 21.272,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Japan then laid siege to the Syrian penalty area for most of the game but rarely breached the Syrian defence ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:45:33.046351Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6385,
+      "predictions": [
+        {
+          "id": 2735,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Bitar",
+                "labels": [
+                  "Person"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.632995Z",
+          "updated_at": "2024-04-05T17:45:37.063258Z",
+          "task": 6385,
+          "project": 2
+        },
+        {
+          "id": 2775,
+          "model_version": "INITIAL",
+          "created_ago": "4\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "Bitar"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:45:36.457105Z",
+          "updated_at": "2024-04-05T17:45:36.457105Z",
+          "task": 6385,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 457,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "4\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Bitar",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "PzU_zt7W5K",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:45:40.564213Z",
+          "updated_at": "2024-04-05T17:45:40.564213Z",
+          "draft_created_at": null,
+          "lead_time": 3.287,
+          "import_id": null,
+          "last_action": null,
+          "task": 6385,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2775,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 14,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:45:40.564213Z",
+      "annotations_results": "[{value: {start: 0, end: 5, text: Bitar, labels: [Person]}, id: PzU_zt7W5K, from_name: label, to_name: text, type: labels, origin: prediction}] [{value: {start: 0, end: 5, text: Bitar, labels: [Person]}, id: PzU_zt7W5K, from_name: label, to_name: text, type: labels, origin: prediction}]",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: Bitar, labels: [Person]}}] [{from_name: label, to_name: text, type: labels, value: {end: 5, labels: [Person], start: 0, text: Bitar}}]",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "457",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 3.287,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Bitar pulled off fine saves whenever they did ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:45:40.784126Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6386,
+      "predictions": [
+        {
+          "id": 2736,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 6,
+                "end": 9,
+                "text": "UAE",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 15,
+                "end": 21,
+                "text": "Kuwait",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 26,
+                "end": 31,
+                "text": "South",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 32,
+                "end": 37,
+                "text": "Korea",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 46,
+                "end": 55,
+                "text": "Indonesia",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 71,
+                "end": 76,
+                "text": "Group",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.671907Z",
+          "updated_at": "2024-04-05T17:45:44.778660Z",
+          "task": 6386,
+          "project": 2
+        },
+        {
+          "id": 2776,
+          "model_version": "INITIAL",
+          "created_ago": "4\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 9,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 6,
+                "text": "UAE"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 21,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 15,
+                "text": "Kuwait"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 31,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 26,
+                "text": "South"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 37,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 32,
+                "text": "Korea"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 55,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 46,
+                "text": "Indonesia"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 76,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 71,
+                "text": "Group"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:45:44.437096Z",
+          "updated_at": "2024-04-05T17:45:44.437096Z",
+          "task": 6386,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 458,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "4\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 6,
+                "end": 9,
+                "text": "UAE",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "3-U-NfncXr",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 15,
+                "end": 21,
+                "text": "Kuwait",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "bVv-sgcyOl",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 26,
+                "end": 31,
+                "text": "South",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "eL948HI_AB",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 32,
+                "end": 37,
+                "text": "Korea",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "C3eUHjlsk5",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 46,
+                "end": 55,
+                "text": "Indonesia",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "0ZtMNPfog5",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 71,
+                "end": 76,
+                "text": "Group",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "LJdFzh7DOt",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 77,
+                "end": 78,
+                "text": "A",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "n2bT4wjYce",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:45:57.666035Z",
+          "updated_at": "2024-04-05T17:45:57.666035Z",
+          "draft_created_at": null,
+          "lead_time": 12.618,
+          "import_id": null,
+          "last_action": null,
+          "task": 6386,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2776,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 15,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:45:57.666035Z",
+      "annotations_results": "[{value: {start: 6, end: 9, text: UAE, labels: [Organization]}, id: 3-U-NfncXr, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 15, end: 21, text: Kuwait, labels: [Organization]}, id: bVv-sgcyOl, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 26, end: 31, text: South, labels: [Organization]}, id: eL948HI_AB, from_name: label, to_name",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 6, end: 9, text: UAE, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 15, end: 21, text: Kuwait, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 26, end: 31, text: South, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: ",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "458",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 12.618,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Hosts UAE play Kuwait and South Korea take on Indonesia on Saturday in Group A matches ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:45:57.890686Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6387,
+      "predictions": [
+        {
+          "id": 2737,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.713207Z",
+          "updated_at": "2024-04-05T17:46:01.891559Z",
+          "task": 6387,
+          "project": 2
+        },
+        {
+          "id": 2777,
+          "model_version": "INITIAL",
+          "created_ago": "4\u00a0minutes",
+          "result": [],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:46:01.276035Z",
+          "updated_at": "2024-04-05T17:46:01.276035Z",
+          "task": 6387,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 459,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "2\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 9,
+                "end": 14,
+                "text": "teams",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "BXlW_r9H6m",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:47:38.211975Z",
+          "updated_at": "2024-04-05T17:47:38.211975Z",
+          "draft_created_at": null,
+          "lead_time": 95.987,
+          "import_id": null,
+          "last_action": null,
+          "task": 6387,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2777,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 16,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:47:38.211975Z",
+      "annotations_results": "[{value: {start: 9, end: 14, text: teams, labels: [Organization]}, id: BXlW_r9H6m, from_name: label, to_name: text, type: labels, origin: manual}] [{value: {start: 9, end: 14, text: teams, labels: [Organization]}, id: BXlW_r9H6m, from_name: label, to_name: text, type: labels, origin: manual}]",
+      "predictions_results": "[] []",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "459",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 95.987,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "All four teams are level with one point each from one game ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:47:38.411110Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6388,
+      "predictions": [
+        {
+          "id": 2738,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "RUGBY",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 14,
+                "end": 22,
+                "text": "CUTTITTA",
+                "labels": [
+                  "Location"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.781910Z",
+          "updated_at": "2024-04-05T17:47:42.357513Z",
+          "task": 6388,
+          "project": 2
+        },
+        {
+          "id": 2778,
+          "model_version": "INITIAL",
+          "created_ago": "2\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Person"
+                ],
+                "start": 0,
+                "text": "RUGBY"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 22,
+                "labels": [
+                  "Location"
+                ],
+                "start": 14,
+                "text": "CUTTITTA"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:47:41.858042Z",
+          "updated_at": "2024-04-05T17:47:41.858042Z",
+          "task": 6388,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 460,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "2\u00a0minutes",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 14,
+                "end": 22,
+                "text": "CUTTITTA",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "I14R6DtcdG",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction-changed"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 11,
+                "text": "RUGBY UNION",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "lGEnJTohou",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 32,
+                "end": 37,
+                "text": "ITALY",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "BPZQlzUMMP",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:48:11.532918Z",
+          "updated_at": "2024-04-05T17:48:11.532918Z",
+          "draft_created_at": "2024-04-05T17:47:51.145731Z",
+          "lead_time": 29.004,
+          "import_id": null,
+          "last_action": null,
+          "task": 6388,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2778,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 17,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:48:11.532918Z",
+      "annotations_results": "[{value: {start: 14, end: 22, text: CUTTITTA, labels: [Person]}, id: I14R6DtcdG, from_name: label, to_name: text, type: labels, origin: prediction-changed}, {value: {start: 0, end: 11, text: RUGBY UNION, labels: [Organization]}, id: lGEnJTohou, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 32, end: 37, text: ITALY, labels: [Organization]}, id: BPZQlzUMMP, from_name: label, ",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: RUGBY, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 14, end: 22, text: CUTTITTA, labels: [Location]}}] [{from_name: label, to_name: text, type: labels, value: {end: 5, labels: [Person], start: 0, text: RUGBY}}, {from_name: label, to_name: text, type: labels, value: {end: 22, labels: [",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "460",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 29.004,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "RUGBY UNION - CUTTITTA BACK FOR ITALY AFTER A YEAR ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:48:11.785701Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6389,
+      "predictions": [
+        {
+          "id": 2739,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Italy",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 6,
+                "end": 14,
+                "text": "recalled",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 15,
+                "end": 23,
+                "text": "Marcello",
+                "labels": [
+                  "Person"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.821803Z",
+          "updated_at": "2024-04-05T17:48:15.775392Z",
+          "task": 6389,
+          "project": 2
+        },
+        {
+          "id": 2779,
+          "model_version": "INITIAL",
+          "created_ago": "2\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 5,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 0,
+                "text": "Italy"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 14,
+                "labels": [
+                  "Person"
+                ],
+                "start": 6,
+                "text": "recalled"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 23,
+                "labels": [
+                  "Person"
+                ],
+                "start": 15,
+                "text": "Marcello"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:48:15.223036Z",
+          "updated_at": "2024-04-05T17:48:15.223036Z",
+          "task": 6389,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 461,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "1\u00a0minute",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 0,
+                "end": 5,
+                "text": "Italy",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "b2pM4e6o8b",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 15,
+                "end": 23,
+                "text": "Marcello",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "QE23YwC6Yz",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 24,
+                "end": 32,
+                "text": "Cuttitta",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "c0kWV1GPcp",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:48:22.033211Z",
+          "updated_at": "2024-04-05T17:48:22.033211Z",
+          "draft_created_at": null,
+          "lead_time": 6.156,
+          "import_id": null,
+          "last_action": null,
+          "task": 6389,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2779,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 18,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:48:22.033211Z",
+      "annotations_results": "[{value: {start: 0, end: 5, text: Italy, labels: [Organization]}, id: b2pM4e6o8b, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 15, end: 23, text: Marcello, labels: [Person]}, id: QE23YwC6Yz, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 24, end: 32, text: Cuttitta, labels: [Person]}, id: c0kWV1GPcp, from_name: label, to_name: te",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 0, end: 5, text: Italy, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 6, end: 14, text: recalled, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 15, end: 23, text: Marcello, labels: [Person]}}] [{from_name: label, to_name: text, type: labels, value: {end: 5, lab",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "461",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 6.156,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Italy recalled Marcello Cuttitta"
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:48:22.265005Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6390,
+      "predictions": [
+        {
+          "id": 2740,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 37,
+                "end": 45,
+                "text": "Scotland",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.862016Z",
+          "updated_at": "2024-04-05T17:48:26.259285Z",
+          "task": 6390,
+          "project": 2
+        },
+        {
+          "id": 2780,
+          "model_version": "INITIAL",
+          "created_ago": "1\u00a0minute",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 45,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 37,
+                "text": "Scotland"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:48:25.657660Z",
+          "updated_at": "2024-04-05T17:48:25.657660Z",
+          "task": 6390,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 462,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "1\u00a0minute",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 37,
+                "end": 45,
+                "text": "Scotland",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "Wen_4Ammdd",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 49,
+                "end": 60,
+                "text": "Murrayfield",
+                "labels": [
+                  "Location"
+                ]
+              },
+              "id": "u6iYgaRjBf",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            },
+            {
+              "value": {
+                "start": 88,
+                "end": 104,
+                "text": "30-year-old wing",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "85klRfldNr",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:48:42.806367Z",
+          "updated_at": "2024-04-05T17:48:42.806367Z",
+          "draft_created_at": "2024-04-05T17:48:39.339626Z",
+          "lead_time": 16.535,
+          "import_id": null,
+          "last_action": null,
+          "task": 6390,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2780,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 19,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:48:42.806367Z",
+      "annotations_results": "[{value: {start: 37, end: 45, text: Scotland, labels: [Organization]}, id: Wen_4Ammdd, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 49, end: 60, text: Murrayfield, labels: [Location]}, id: u6iYgaRjBf, from_name: label, to_name: text, type: labels, origin: manual}, {value: {start: 88, end: 104, text: 30-year-old wing, labels: [Person]}, id: 85klRfldNr, from_name: label,",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 37, end: 45, text: Scotland, labels: [Organization]}}] [{from_name: label, to_name: text, type: labels, value: {end: 45, labels: [Organization], start: 37, text: Scotland}}]",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "462",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 16.535,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "on Friday for their friendly against Scotland at Murrayfield more than a year after the 30-year-old wing announced he was retiring following differences over selection ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:48:43.023323Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    },
+    {
+      "id": 6391,
+      "predictions": [
+        {
+          "id": 2741,
+          "model_version": "CLaSP_v1",
+          "created_ago": "29\u00a0minutes",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 23,
+                "end": 29,
+                "text": "George",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 30,
+                "end": 35,
+                "text": "Coste",
+                "labels": [
+                  "Person"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 153,
+                "end": 160,
+                "text": "England",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "start": 164,
+                "end": 174,
+                "text": "Twickenham",
+                "labels": [
+                  "Organization"
+                ]
+              }
+            }
+          ],
+          "score": 1.0,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:21:11.904973Z",
+          "updated_at": "2024-04-05T17:48:47.079030Z",
+          "task": 6391,
+          "project": 2
+        },
+        {
+          "id": 2781,
+          "model_version": "INITIAL",
+          "created_ago": "1\u00a0minute",
+          "result": [
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 29,
+                "labels": [
+                  "Person"
+                ],
+                "start": 23,
+                "text": "George"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 35,
+                "labels": [
+                  "Person"
+                ],
+                "start": 30,
+                "text": "Coste"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 160,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 153,
+                "text": "England"
+              }
+            },
+            {
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "value": {
+                "end": 174,
+                "labels": [
+                  "Organization"
+                ],
+                "start": 164,
+                "text": "Twickenham"
+              }
+            }
+          ],
+          "score": null,
+          "cluster": null,
+          "neighbors": null,
+          "mislabeling": 0.0,
+          "created_at": "2024-04-05T17:48:46.399676Z",
+          "updated_at": "2024-04-05T17:48:46.399676Z",
+          "task": 6391,
+          "project": 2
+        }
+      ],
+      "annotations": [
+        {
+          "id": 463,
+          "created_username": " bmj5047@rit.edu, 11",
+          "created_ago": "1\u00a0minute",
+          "completed_by": 11,
+          "result": [
+            {
+              "value": {
+                "start": 23,
+                "end": 29,
+                "text": "George",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "xmvwPvhtvd",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 30,
+                "end": 35,
+                "text": "Coste",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "1L7VMVHCmO",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 153,
+                "end": 160,
+                "text": "England",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "VM_seAxu41",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 164,
+                "end": 174,
+                "text": "Twickenham",
+                "labels": [
+                  "Organization"
+                ]
+              },
+              "id": "ibJzHPZbov",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "prediction"
+            },
+            {
+              "value": {
+                "start": 0,
+                "end": 8,
+                "text": "Cuttitta",
+                "labels": [
+                  "Person"
+                ]
+              },
+              "id": "rvfrCVNDnZ",
+              "from_name": "label",
+              "to_name": "text",
+              "type": "labels",
+              "origin": "manual"
+            }
+          ],
+          "was_cancelled": false,
+          "ground_truth": false,
+          "created_at": "2024-04-05T17:49:02.309793Z",
+          "updated_at": "2024-04-05T17:49:02.309793Z",
+          "draft_created_at": "2024-04-05T17:48:59.480585Z",
+          "lead_time": 15.298,
+          "import_id": null,
+          "last_action": null,
+          "task": 6391,
+          "project": 2,
+          "updated_by": 11,
+          "parent_prediction": 2781,
+          "parent_annotation": null,
+          "last_created_by": null
+        }
+      ],
+      "drafts": [],
+      "annotators": [
+        11
+      ],
+      "inner_id": 20,
+      "cancelled_annotations": 0,
+      "total_annotations": 1,
+      "total_predictions": 2,
+      "completed_at": "2024-04-05T17:49:02.309793Z",
+      "annotations_results": "[{value: {start: 23, end: 29, text: George, labels: [Person]}, id: xmvwPvhtvd, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 30, end: 35, text: Coste, labels: [Person]}, id: 1L7VMVHCmO, from_name: label, to_name: text, type: labels, origin: prediction}, {value: {start: 153, end: 160, text: England, labels: [Organization]}, id: VM_seAxu41, from_name: label, to_name: t",
+      "predictions_results": "[{from_name: label, to_name: text, type: labels, value: {start: 23, end: 29, text: George, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 30, end: 35, text: Coste, labels: [Person]}}, {from_name: label, to_name: text, type: labels, value: {start: 153, end: 160, text: England, labels: [Organization]}}, {from_name: label, to_name: text, type: labels, value: {start: 164,",
+      "predictions_score": null,
+      "file_upload": "e2280c1e-solo.json",
+      "storage_filename": null,
+      "annotations_ids": "463",
+      "predictions_model_versions": "INITIAL,CLaSP_v1",
+      "avg_lead_time": 15.298,
+      "draft_exists": false,
+      "updated_by": [
+        {
+          "user_id": 11
+        }
+      ],
+      "data": {
+        "text": "Cuttitta , who trainer George Coste said was certain to play on Saturday week , was named in a 21-man squad lacking only two of the team beaten 54-21 by England at Twickenham last month ."
+      },
+      "meta": {},
+      "created_at": "2024-04-05T17:18:49.887927Z",
+      "updated_at": "2024-04-05T17:49:02.538146Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 2,
+      "comment_authors": []
+    }
+  ]
+}
